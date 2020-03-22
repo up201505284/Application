@@ -73,80 +73,80 @@ public:
     QWidget *editTab;
     QWidget *gridLayoutWidget_2;
     QGridLayout *gridLayout_2;
-    QLabel *labelMaxCurrent_2;
+    QLabel *labelMaxCurrent_edit;
     QFrame *line_17;
     QFrame *line_15;
     QFrame *line_18;
     QLineEdit *powerRating_edit;
     QLineEdit *dutyCycle_edit;
     QLineEdit *accelarationTime_edit;
-    QLabel *labelSpecifications_2;
-    QSpacerItem *verticalSpacer_2;
+    QLabel *labelSpecifications_edit;
+    QSpacerItem *verticalSpacer_edit;
     QFrame *line_16;
     QLineEdit *maxCurrent_edit;
     QFrame *line_19;
     QLineEdit *model_edit;
-    QLabel *labelPowerRating_2;
-    QLabel *labelAccelTime_2;
+    QLabel *labelPowerRating_edit;
+    QLabel *labelAccelTime_edit;
     QLineEdit *accelarationRate_edit;
     QFrame *line_24;
-    QLabel *labelDutyCycle_2;
-    QLabel *labelMaxPull_2;
+    QLabel *labelDutyCycle_edit;
+    QLabel *labelMaxPull_edit;
     QFrame *line_20;
-    QLabel *labelMaxPush_2;
+    QLabel *labelMaxPush_edit;
     QLineEdit *maxLoadPush_edit;
-    QLabel *labelAccelRate_2;
-    QPushButton *pushButtonInsert_2;
-    QLabel *labelModel_2;
+    QLabel *labelAccelRate_edit;
+    QPushButton *pushButtonEdit;
+    QLabel *labelModel_edit;
     QFrame *line_22;
     QFrame *line_21;
     QFrame *line_14;
-    QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *horizontalSpacer_edit;
     QFrame *line_23;
     QFrame *line_13;
-    QLabel *labelPwmFrewq_2;
+    QLabel *labelPwmFrewq_edit;
     QLineEdit *maxLoadPull_edit;
     QLineEdit *strokeLenght_edit;
-    QLabel *labelControlSystem_2;
-    QLabel *strokeLabel_2;
+    QLabel *labelControlSystem_edit;
+    QLabel *strokeLabel_edit;
     QLineEdit *pwmFrequency_edit;
     QComboBox *chooseModelEdit;
     QWidget *statusTab;
     QComboBox *chooseModelStatus;
     QWidget *gridLayoutWidget_3;
     QGridLayout *gridLayout_3;
-    QLabel *labelSpecifications_3;
-    QSpacerItem *horizontalSpacer_3;
+    QLabel *labelLinearActautor;
+    QSpacerItem *horizontalSpacer_status;
     QFrame *line_32;
     QFrame *line_34;
     QFrame *line_26;
-    QPushButton *pushButtonInsert_3;
-    QLabel *strokeLabel_3;
+    QPushButton *pushButtonInsert_update;
+    QLabel *labelLinearSpeed;
     QFrame *line_30;
-    QLabel *labelMaxPush_3;
-    QLineEdit *strokeLenght_3;
-    QLabel *labelDutyCycle_3;
-    QLabel *labelModel_3;
+    QLabel *labelPosition;
+    QLineEdit *linearSpeed;
+    QLabel *labelRotorSpeed;
+    QLabel *labelStatus;
     QFrame *line_29;
-    QLabel *labelPwmFrewq_3;
-    QLineEdit *pwmFrequency_3;
-    QLineEdit *model_3;
-    QLineEdit *accelarationRate_3;
-    QLabel *labelMaxPull_3;
-    QLineEdit *maxLoadPush_3;
+    QLabel *labelExample3;
+    QLineEdit *example3;
+    QLineEdit *status;
+    QLineEdit *example1;
+    QLabel *labelPulseRate;
+    QLineEdit *position;
     QFrame *line_31;
     QFrame *line_33;
-    QSpacerItem *verticalSpacer_3;
-    QLabel *labelControlSystem_3;
-    QLineEdit *accelarationTime_3;
+    QSpacerItem *verticalSpacer_status;
+    QLabel *labelDrive;
+    QLineEdit *example2;
     QFrame *line_27;
-    QLabel *labelPwmFrewq_4;
+    QLabel *labelExample2;
     QFrame *line_36;
-    QLineEdit *maxLoadPull_3;
-    QLineEdit *dutyCycle_3;
+    QLineEdit *pulseRate;
+    QLineEdit *rotorSpeed;
     QFrame *line_28;
     QFrame *line_35;
-    QLabel *labelPwmFrewq_5;
+    QLabel *labelExample1;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -397,11 +397,11 @@ public:
         gridLayout_2 = new QGridLayout(gridLayoutWidget_2);
         gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
-        labelMaxCurrent_2 = new QLabel(gridLayoutWidget_2);
-        labelMaxCurrent_2->setObjectName(QString::fromUtf8("labelMaxCurrent_2"));
-        labelMaxCurrent_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelMaxCurrent_edit = new QLabel(gridLayoutWidget_2);
+        labelMaxCurrent_edit->setObjectName(QString::fromUtf8("labelMaxCurrent_edit"));
+        labelMaxCurrent_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelMaxCurrent_2, 7, 0, 1, 1);
+        gridLayout_2->addWidget(labelMaxCurrent_edit, 7, 0, 1, 1);
 
         line_17 = new QFrame(gridLayoutWidget_2);
         line_17->setObjectName(QString::fromUtf8("line_17"));
@@ -439,15 +439,15 @@ public:
 
         gridLayout_2->addWidget(accelarationTime_edit, 3, 6, 1, 1);
 
-        labelSpecifications_2 = new QLabel(gridLayoutWidget_2);
-        labelSpecifications_2->setObjectName(QString::fromUtf8("labelSpecifications_2"));
-        labelSpecifications_2->setAlignment(Qt::AlignCenter);
+        labelSpecifications_edit = new QLabel(gridLayoutWidget_2);
+        labelSpecifications_edit->setObjectName(QString::fromUtf8("labelSpecifications_edit"));
+        labelSpecifications_edit->setAlignment(Qt::AlignCenter);
 
-        gridLayout_2->addWidget(labelSpecifications_2, 0, 0, 1, 3);
+        gridLayout_2->addWidget(labelSpecifications_edit, 0, 0, 1, 3);
 
-        verticalSpacer_2 = new QSpacerItem(20, 108, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer_edit = new QSpacerItem(20, 108, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        gridLayout_2->addItem(verticalSpacer_2, 9, 0, 1, 1);
+        gridLayout_2->addItem(verticalSpacer_edit, 9, 0, 1, 1);
 
         line_16 = new QFrame(gridLayoutWidget_2);
         line_16->setObjectName(QString::fromUtf8("line_16"));
@@ -473,17 +473,17 @@ public:
 
         gridLayout_2->addWidget(model_edit, 2, 2, 1, 1);
 
-        labelPowerRating_2 = new QLabel(gridLayoutWidget_2);
-        labelPowerRating_2->setObjectName(QString::fromUtf8("labelPowerRating_2"));
-        labelPowerRating_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelPowerRating_edit = new QLabel(gridLayoutWidget_2);
+        labelPowerRating_edit->setObjectName(QString::fromUtf8("labelPowerRating_edit"));
+        labelPowerRating_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelPowerRating_2, 8, 0, 1, 1);
+        gridLayout_2->addWidget(labelPowerRating_edit, 8, 0, 1, 1);
 
-        labelAccelTime_2 = new QLabel(gridLayoutWidget_2);
-        labelAccelTime_2->setObjectName(QString::fromUtf8("labelAccelTime_2"));
-        labelAccelTime_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelAccelTime_edit = new QLabel(gridLayoutWidget_2);
+        labelAccelTime_edit->setObjectName(QString::fromUtf8("labelAccelTime_edit"));
+        labelAccelTime_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelAccelTime_2, 3, 4, 1, 1);
+        gridLayout_2->addWidget(labelAccelTime_edit, 3, 4, 1, 1);
 
         accelarationRate_edit = new QLineEdit(gridLayoutWidget_2);
         accelarationRate_edit->setObjectName(QString::fromUtf8("accelarationRate_edit"));
@@ -497,17 +497,17 @@ public:
 
         gridLayout_2->addWidget(line_24, 3, 5, 1, 1);
 
-        labelDutyCycle_2 = new QLabel(gridLayoutWidget_2);
-        labelDutyCycle_2->setObjectName(QString::fromUtf8("labelDutyCycle_2"));
-        labelDutyCycle_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelDutyCycle_edit = new QLabel(gridLayoutWidget_2);
+        labelDutyCycle_edit->setObjectName(QString::fromUtf8("labelDutyCycle_edit"));
+        labelDutyCycle_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelDutyCycle_2, 4, 0, 1, 1);
+        gridLayout_2->addWidget(labelDutyCycle_edit, 4, 0, 1, 1);
 
-        labelMaxPull_2 = new QLabel(gridLayoutWidget_2);
-        labelMaxPull_2->setObjectName(QString::fromUtf8("labelMaxPull_2"));
-        labelMaxPull_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelMaxPull_edit = new QLabel(gridLayoutWidget_2);
+        labelMaxPull_edit->setObjectName(QString::fromUtf8("labelMaxPull_edit"));
+        labelMaxPull_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelMaxPull_2, 6, 0, 1, 1);
+        gridLayout_2->addWidget(labelMaxPull_edit, 6, 0, 1, 1);
 
         line_20 = new QFrame(gridLayoutWidget_2);
         line_20->setObjectName(QString::fromUtf8("line_20"));
@@ -516,33 +516,33 @@ public:
 
         gridLayout_2->addWidget(line_20, 6, 1, 1, 1);
 
-        labelMaxPush_2 = new QLabel(gridLayoutWidget_2);
-        labelMaxPush_2->setObjectName(QString::fromUtf8("labelMaxPush_2"));
-        labelMaxPush_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelMaxPush_edit = new QLabel(gridLayoutWidget_2);
+        labelMaxPush_edit->setObjectName(QString::fromUtf8("labelMaxPush_edit"));
+        labelMaxPush_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelMaxPush_2, 5, 0, 1, 1);
+        gridLayout_2->addWidget(labelMaxPush_edit, 5, 0, 1, 1);
 
         maxLoadPush_edit = new QLineEdit(gridLayoutWidget_2);
         maxLoadPush_edit->setObjectName(QString::fromUtf8("maxLoadPush_edit"));
 
         gridLayout_2->addWidget(maxLoadPush_edit, 5, 2, 1, 1);
 
-        labelAccelRate_2 = new QLabel(gridLayoutWidget_2);
-        labelAccelRate_2->setObjectName(QString::fromUtf8("labelAccelRate_2"));
-        labelAccelRate_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelAccelRate_edit = new QLabel(gridLayoutWidget_2);
+        labelAccelRate_edit->setObjectName(QString::fromUtf8("labelAccelRate_edit"));
+        labelAccelRate_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelAccelRate_2, 2, 4, 1, 1);
+        gridLayout_2->addWidget(labelAccelRate_edit, 2, 4, 1, 1);
 
-        pushButtonInsert_2 = new QPushButton(gridLayoutWidget_2);
-        pushButtonInsert_2->setObjectName(QString::fromUtf8("pushButtonInsert_2"));
+        pushButtonEdit = new QPushButton(gridLayoutWidget_2);
+        pushButtonEdit->setObjectName(QString::fromUtf8("pushButtonEdit"));
 
-        gridLayout_2->addWidget(pushButtonInsert_2, 10, 0, 1, 7);
+        gridLayout_2->addWidget(pushButtonEdit, 10, 0, 1, 7);
 
-        labelModel_2 = new QLabel(gridLayoutWidget_2);
-        labelModel_2->setObjectName(QString::fromUtf8("labelModel_2"));
-        labelModel_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelModel_edit = new QLabel(gridLayoutWidget_2);
+        labelModel_edit->setObjectName(QString::fromUtf8("labelModel_edit"));
+        labelModel_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelModel_2, 2, 0, 1, 1);
+        gridLayout_2->addWidget(labelModel_edit, 2, 0, 1, 1);
 
         line_22 = new QFrame(gridLayoutWidget_2);
         line_22->setObjectName(QString::fromUtf8("line_22"));
@@ -565,9 +565,9 @@ public:
 
         gridLayout_2->addWidget(line_14, 4, 5, 1, 1);
 
-        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        horizontalSpacer_edit = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        gridLayout_2->addItem(horizontalSpacer_2, 4, 3, 1, 1);
+        gridLayout_2->addItem(horizontalSpacer_edit, 4, 3, 1, 1);
 
         line_23 = new QFrame(gridLayoutWidget_2);
         line_23->setObjectName(QString::fromUtf8("line_23"));
@@ -583,11 +583,11 @@ public:
 
         gridLayout_2->addWidget(line_13, 7, 1, 1, 1);
 
-        labelPwmFrewq_2 = new QLabel(gridLayoutWidget_2);
-        labelPwmFrewq_2->setObjectName(QString::fromUtf8("labelPwmFrewq_2"));
-        labelPwmFrewq_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelPwmFrewq_edit = new QLabel(gridLayoutWidget_2);
+        labelPwmFrewq_edit->setObjectName(QString::fromUtf8("labelPwmFrewq_edit"));
+        labelPwmFrewq_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(labelPwmFrewq_2, 4, 4, 1, 1);
+        gridLayout_2->addWidget(labelPwmFrewq_edit, 4, 4, 1, 1);
 
         maxLoadPull_edit = new QLineEdit(gridLayoutWidget_2);
         maxLoadPull_edit->setObjectName(QString::fromUtf8("maxLoadPull_edit"));
@@ -599,17 +599,17 @@ public:
 
         gridLayout_2->addWidget(strokeLenght_edit, 3, 2, 1, 1);
 
-        labelControlSystem_2 = new QLabel(gridLayoutWidget_2);
-        labelControlSystem_2->setObjectName(QString::fromUtf8("labelControlSystem_2"));
-        labelControlSystem_2->setAlignment(Qt::AlignCenter);
+        labelControlSystem_edit = new QLabel(gridLayoutWidget_2);
+        labelControlSystem_edit->setObjectName(QString::fromUtf8("labelControlSystem_edit"));
+        labelControlSystem_edit->setAlignment(Qt::AlignCenter);
 
-        gridLayout_2->addWidget(labelControlSystem_2, 0, 4, 1, 3);
+        gridLayout_2->addWidget(labelControlSystem_edit, 0, 4, 1, 3);
 
-        strokeLabel_2 = new QLabel(gridLayoutWidget_2);
-        strokeLabel_2->setObjectName(QString::fromUtf8("strokeLabel_2"));
-        strokeLabel_2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        strokeLabel_edit = new QLabel(gridLayoutWidget_2);
+        strokeLabel_edit->setObjectName(QString::fromUtf8("strokeLabel_edit"));
+        strokeLabel_edit->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_2->addWidget(strokeLabel_2, 3, 0, 1, 1);
+        gridLayout_2->addWidget(strokeLabel_edit, 3, 0, 1, 1);
 
         pwmFrequency_edit = new QLineEdit(gridLayoutWidget_2);
         pwmFrequency_edit->setObjectName(QString::fromUtf8("pwmFrequency_edit"));
@@ -632,15 +632,15 @@ public:
         gridLayout_3 = new QGridLayout(gridLayoutWidget_3);
         gridLayout_3->setObjectName(QString::fromUtf8("gridLayout_3"));
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
-        labelSpecifications_3 = new QLabel(gridLayoutWidget_3);
-        labelSpecifications_3->setObjectName(QString::fromUtf8("labelSpecifications_3"));
-        labelSpecifications_3->setAlignment(Qt::AlignCenter);
+        labelLinearActautor = new QLabel(gridLayoutWidget_3);
+        labelLinearActautor->setObjectName(QString::fromUtf8("labelLinearActautor"));
+        labelLinearActautor->setAlignment(Qt::AlignCenter);
 
-        gridLayout_3->addWidget(labelSpecifications_3, 0, 0, 1, 3);
+        gridLayout_3->addWidget(labelLinearActautor, 0, 0, 1, 3);
 
-        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        horizontalSpacer_status = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        gridLayout_3->addItem(horizontalSpacer_3, 5, 3, 1, 1);
+        gridLayout_3->addItem(horizontalSpacer_status, 5, 3, 1, 1);
 
         line_32 = new QFrame(gridLayoutWidget_3);
         line_32->setObjectName(QString::fromUtf8("line_32"));
@@ -663,16 +663,16 @@ public:
 
         gridLayout_3->addWidget(line_26, 5, 5, 1, 1);
 
-        pushButtonInsert_3 = new QPushButton(gridLayoutWidget_3);
-        pushButtonInsert_3->setObjectName(QString::fromUtf8("pushButtonInsert_3"));
+        pushButtonInsert_update = new QPushButton(gridLayoutWidget_3);
+        pushButtonInsert_update->setObjectName(QString::fromUtf8("pushButtonInsert_update"));
 
-        gridLayout_3->addWidget(pushButtonInsert_3, 10, 0, 1, 7);
+        gridLayout_3->addWidget(pushButtonInsert_update, 10, 0, 1, 7);
 
-        strokeLabel_3 = new QLabel(gridLayoutWidget_3);
-        strokeLabel_3->setObjectName(QString::fromUtf8("strokeLabel_3"));
-        strokeLabel_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelLinearSpeed = new QLabel(gridLayoutWidget_3);
+        labelLinearSpeed->setObjectName(QString::fromUtf8("labelLinearSpeed"));
+        labelLinearSpeed->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(strokeLabel_3, 4, 0, 1, 1);
+        gridLayout_3->addWidget(labelLinearSpeed, 4, 0, 1, 1);
 
         line_30 = new QFrame(gridLayoutWidget_3);
         line_30->setObjectName(QString::fromUtf8("line_30"));
@@ -681,30 +681,30 @@ public:
 
         gridLayout_3->addWidget(line_30, 1, 0, 1, 3);
 
-        labelMaxPush_3 = new QLabel(gridLayoutWidget_3);
-        labelMaxPush_3->setObjectName(QString::fromUtf8("labelMaxPush_3"));
-        labelMaxPush_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelPosition = new QLabel(gridLayoutWidget_3);
+        labelPosition->setObjectName(QString::fromUtf8("labelPosition"));
+        labelPosition->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelMaxPush_3, 6, 0, 1, 1);
+        gridLayout_3->addWidget(labelPosition, 6, 0, 1, 1);
 
-        strokeLenght_3 = new QLineEdit(gridLayoutWidget_3);
-        strokeLenght_3->setObjectName(QString::fromUtf8("strokeLenght_3"));
-        strokeLenght_3->setEnabled(false);
-        strokeLenght_3->setMouseTracking(false);
+        linearSpeed = new QLineEdit(gridLayoutWidget_3);
+        linearSpeed->setObjectName(QString::fromUtf8("linearSpeed"));
+        linearSpeed->setEnabled(false);
+        linearSpeed->setMouseTracking(false);
 
-        gridLayout_3->addWidget(strokeLenght_3, 4, 2, 1, 1);
+        gridLayout_3->addWidget(linearSpeed, 4, 2, 1, 1);
 
-        labelDutyCycle_3 = new QLabel(gridLayoutWidget_3);
-        labelDutyCycle_3->setObjectName(QString::fromUtf8("labelDutyCycle_3"));
-        labelDutyCycle_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelRotorSpeed = new QLabel(gridLayoutWidget_3);
+        labelRotorSpeed->setObjectName(QString::fromUtf8("labelRotorSpeed"));
+        labelRotorSpeed->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelDutyCycle_3, 5, 0, 1, 1);
+        gridLayout_3->addWidget(labelRotorSpeed, 5, 0, 1, 1);
 
-        labelModel_3 = new QLabel(gridLayoutWidget_3);
-        labelModel_3->setObjectName(QString::fromUtf8("labelModel_3"));
-        labelModel_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelStatus = new QLabel(gridLayoutWidget_3);
+        labelStatus->setObjectName(QString::fromUtf8("labelStatus"));
+        labelStatus->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelModel_3, 3, 0, 1, 1);
+        gridLayout_3->addWidget(labelStatus, 3, 0, 1, 1);
 
         line_29 = new QFrame(gridLayoutWidget_3);
         line_29->setObjectName(QString::fromUtf8("line_29"));
@@ -713,45 +713,45 @@ public:
 
         gridLayout_3->addWidget(line_29, 8, 1, 1, 1);
 
-        labelPwmFrewq_3 = new QLabel(gridLayoutWidget_3);
-        labelPwmFrewq_3->setObjectName(QString::fromUtf8("labelPwmFrewq_3"));
-        labelPwmFrewq_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelExample3 = new QLabel(gridLayoutWidget_3);
+        labelExample3->setObjectName(QString::fromUtf8("labelExample3"));
+        labelExample3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelPwmFrewq_3, 5, 4, 1, 1);
+        gridLayout_3->addWidget(labelExample3, 5, 4, 1, 1);
 
-        pwmFrequency_3 = new QLineEdit(gridLayoutWidget_3);
-        pwmFrequency_3->setObjectName(QString::fromUtf8("pwmFrequency_3"));
-        pwmFrequency_3->setEnabled(false);
-        pwmFrequency_3->setMouseTracking(false);
+        example3 = new QLineEdit(gridLayoutWidget_3);
+        example3->setObjectName(QString::fromUtf8("example3"));
+        example3->setEnabled(false);
+        example3->setMouseTracking(false);
 
-        gridLayout_3->addWidget(pwmFrequency_3, 5, 6, 1, 1);
+        gridLayout_3->addWidget(example3, 5, 6, 1, 1);
 
-        model_3 = new QLineEdit(gridLayoutWidget_3);
-        model_3->setObjectName(QString::fromUtf8("model_3"));
-        model_3->setEnabled(false);
-        model_3->setMouseTracking(false);
+        status = new QLineEdit(gridLayoutWidget_3);
+        status->setObjectName(QString::fromUtf8("status"));
+        status->setEnabled(false);
+        status->setMouseTracking(false);
 
-        gridLayout_3->addWidget(model_3, 3, 2, 1, 1);
+        gridLayout_3->addWidget(status, 3, 2, 1, 1);
 
-        accelarationRate_3 = new QLineEdit(gridLayoutWidget_3);
-        accelarationRate_3->setObjectName(QString::fromUtf8("accelarationRate_3"));
-        accelarationRate_3->setEnabled(false);
-        accelarationRate_3->setMouseTracking(false);
+        example1 = new QLineEdit(gridLayoutWidget_3);
+        example1->setObjectName(QString::fromUtf8("example1"));
+        example1->setEnabled(false);
+        example1->setMouseTracking(false);
 
-        gridLayout_3->addWidget(accelarationRate_3, 3, 6, 1, 1);
+        gridLayout_3->addWidget(example1, 3, 6, 1, 1);
 
-        labelMaxPull_3 = new QLabel(gridLayoutWidget_3);
-        labelMaxPull_3->setObjectName(QString::fromUtf8("labelMaxPull_3"));
-        labelMaxPull_3->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelPulseRate = new QLabel(gridLayoutWidget_3);
+        labelPulseRate->setObjectName(QString::fromUtf8("labelPulseRate"));
+        labelPulseRate->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelMaxPull_3, 7, 0, 1, 1);
+        gridLayout_3->addWidget(labelPulseRate, 7, 0, 1, 1);
 
-        maxLoadPush_3 = new QLineEdit(gridLayoutWidget_3);
-        maxLoadPush_3->setObjectName(QString::fromUtf8("maxLoadPush_3"));
-        maxLoadPush_3->setEnabled(false);
-        maxLoadPush_3->setMouseTracking(false);
+        position = new QLineEdit(gridLayoutWidget_3);
+        position->setObjectName(QString::fromUtf8("position"));
+        position->setEnabled(false);
+        position->setMouseTracking(false);
 
-        gridLayout_3->addWidget(maxLoadPush_3, 6, 2, 1, 1);
+        gridLayout_3->addWidget(position, 6, 2, 1, 1);
 
         line_31 = new QFrame(gridLayoutWidget_3);
         line_31->setObjectName(QString::fromUtf8("line_31"));
@@ -767,22 +767,22 @@ public:
 
         gridLayout_3->addWidget(line_33, 1, 4, 1, 3);
 
-        verticalSpacer_3 = new QSpacerItem(20, 108, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        verticalSpacer_status = new QSpacerItem(20, 108, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        gridLayout_3->addItem(verticalSpacer_3, 9, 0, 1, 1);
+        gridLayout_3->addItem(verticalSpacer_status, 9, 0, 1, 1);
 
-        labelControlSystem_3 = new QLabel(gridLayoutWidget_3);
-        labelControlSystem_3->setObjectName(QString::fromUtf8("labelControlSystem_3"));
-        labelControlSystem_3->setAlignment(Qt::AlignCenter);
+        labelDrive = new QLabel(gridLayoutWidget_3);
+        labelDrive->setObjectName(QString::fromUtf8("labelDrive"));
+        labelDrive->setAlignment(Qt::AlignCenter);
 
-        gridLayout_3->addWidget(labelControlSystem_3, 0, 4, 1, 3);
+        gridLayout_3->addWidget(labelDrive, 0, 4, 1, 3);
 
-        accelarationTime_3 = new QLineEdit(gridLayoutWidget_3);
-        accelarationTime_3->setObjectName(QString::fromUtf8("accelarationTime_3"));
-        accelarationTime_3->setEnabled(false);
-        accelarationTime_3->setMouseTracking(false);
+        example2 = new QLineEdit(gridLayoutWidget_3);
+        example2->setObjectName(QString::fromUtf8("example2"));
+        example2->setEnabled(false);
+        example2->setMouseTracking(false);
 
-        gridLayout_3->addWidget(accelarationTime_3, 4, 6, 1, 1);
+        gridLayout_3->addWidget(example2, 4, 6, 1, 1);
 
         line_27 = new QFrame(gridLayoutWidget_3);
         line_27->setObjectName(QString::fromUtf8("line_27"));
@@ -791,11 +791,11 @@ public:
 
         gridLayout_3->addWidget(line_27, 6, 1, 1, 1);
 
-        labelPwmFrewq_4 = new QLabel(gridLayoutWidget_3);
-        labelPwmFrewq_4->setObjectName(QString::fromUtf8("labelPwmFrewq_4"));
-        labelPwmFrewq_4->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelExample2 = new QLabel(gridLayoutWidget_3);
+        labelExample2->setObjectName(QString::fromUtf8("labelExample2"));
+        labelExample2->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelPwmFrewq_4, 4, 4, 1, 1);
+        gridLayout_3->addWidget(labelExample2, 4, 4, 1, 1);
 
         line_36 = new QFrame(gridLayoutWidget_3);
         line_36->setObjectName(QString::fromUtf8("line_36"));
@@ -804,19 +804,19 @@ public:
 
         gridLayout_3->addWidget(line_36, 4, 5, 1, 1);
 
-        maxLoadPull_3 = new QLineEdit(gridLayoutWidget_3);
-        maxLoadPull_3->setObjectName(QString::fromUtf8("maxLoadPull_3"));
-        maxLoadPull_3->setEnabled(false);
-        maxLoadPull_3->setMouseTracking(false);
+        pulseRate = new QLineEdit(gridLayoutWidget_3);
+        pulseRate->setObjectName(QString::fromUtf8("pulseRate"));
+        pulseRate->setEnabled(false);
+        pulseRate->setMouseTracking(false);
 
-        gridLayout_3->addWidget(maxLoadPull_3, 7, 2, 1, 1);
+        gridLayout_3->addWidget(pulseRate, 7, 2, 1, 1);
 
-        dutyCycle_3 = new QLineEdit(gridLayoutWidget_3);
-        dutyCycle_3->setObjectName(QString::fromUtf8("dutyCycle_3"));
-        dutyCycle_3->setEnabled(false);
-        dutyCycle_3->setMouseTracking(false);
+        rotorSpeed = new QLineEdit(gridLayoutWidget_3);
+        rotorSpeed->setObjectName(QString::fromUtf8("rotorSpeed"));
+        rotorSpeed->setEnabled(false);
+        rotorSpeed->setMouseTracking(false);
 
-        gridLayout_3->addWidget(dutyCycle_3, 5, 2, 1, 1);
+        gridLayout_3->addWidget(rotorSpeed, 5, 2, 1, 1);
 
         line_28 = new QFrame(gridLayoutWidget_3);
         line_28->setObjectName(QString::fromUtf8("line_28"));
@@ -832,11 +832,11 @@ public:
 
         gridLayout_3->addWidget(line_35, 5, 1, 1, 1);
 
-        labelPwmFrewq_5 = new QLabel(gridLayoutWidget_3);
-        labelPwmFrewq_5->setObjectName(QString::fromUtf8("labelPwmFrewq_5"));
-        labelPwmFrewq_5->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
+        labelExample1 = new QLabel(gridLayoutWidget_3);
+        labelExample1->setObjectName(QString::fromUtf8("labelExample1"));
+        labelExample1->setAlignment(Qt::AlignJustify|Qt::AlignVCenter);
 
-        gridLayout_3->addWidget(labelPwmFrewq_5, 3, 4, 1, 1);
+        gridLayout_3->addWidget(labelExample1, 3, 4, 1, 1);
 
         Tab->addTab(statusTab, QString());
         MainWindow->setCentralWidget(centralwidget);
@@ -846,7 +846,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        Tab->setCurrentIndex(2);
+        Tab->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -869,31 +869,31 @@ public:
         labelDutyCycle->setText(QCoreApplication::translate("MainWindow", "Duty cycle (%)", nullptr));
         labelPwmFrewq->setText(QCoreApplication::translate("MainWindow", "PWM Frequency (kHz)", nullptr));
         Tab->setTabText(Tab->indexOf(insertTab), QCoreApplication::translate("MainWindow", "Insert", nullptr));
-        labelMaxCurrent_2->setText(QCoreApplication::translate("MainWindow", "Max. current (A)", nullptr));
-        labelSpecifications_2->setText(QCoreApplication::translate("MainWindow", "Linear Acuator Specifications", nullptr));
-        labelPowerRating_2->setText(QCoreApplication::translate("MainWindow", "Power rating (V)", nullptr));
-        labelAccelTime_2->setText(QCoreApplication::translate("MainWindow", "Aceelaration time (ms)", nullptr));
-        labelDutyCycle_2->setText(QCoreApplication::translate("MainWindow", "Duty cycle (%)", nullptr));
-        labelMaxPull_2->setText(QCoreApplication::translate("MainWindow", "Max. load in pull (N)", nullptr));
-        labelMaxPush_2->setText(QCoreApplication::translate("MainWindow", "Max. load in push (N)", nullptr));
-        labelAccelRate_2->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Accelaration rate (mm/s<span style=\" vertical-align:super;\">2</span>)</p></body></html>", nullptr));
-        pushButtonInsert_2->setText(QCoreApplication::translate("MainWindow", "Edit", nullptr));
-        labelModel_2->setText(QCoreApplication::translate("MainWindow", "Model", nullptr));
-        labelPwmFrewq_2->setText(QCoreApplication::translate("MainWindow", "PWM Frequency (kHz)", nullptr));
-        labelControlSystem_2->setText(QCoreApplication::translate("MainWindow", "Control System Configuration", nullptr));
-        strokeLabel_2->setText(QCoreApplication::translate("MainWindow", "Stroke lenght (mm)", nullptr));
+        labelMaxCurrent_edit->setText(QCoreApplication::translate("MainWindow", "Max. current (A)", nullptr));
+        labelSpecifications_edit->setText(QCoreApplication::translate("MainWindow", "Linear Acuator Specifications", nullptr));
+        labelPowerRating_edit->setText(QCoreApplication::translate("MainWindow", "Power rating (V)", nullptr));
+        labelAccelTime_edit->setText(QCoreApplication::translate("MainWindow", "Aceelaration time (ms)", nullptr));
+        labelDutyCycle_edit->setText(QCoreApplication::translate("MainWindow", "Duty cycle (%)", nullptr));
+        labelMaxPull_edit->setText(QCoreApplication::translate("MainWindow", "Max. load in pull (N)", nullptr));
+        labelMaxPush_edit->setText(QCoreApplication::translate("MainWindow", "Max. load in push (N)", nullptr));
+        labelAccelRate_edit->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p>Accelaration rate (mm/s<span style=\" vertical-align:super;\">2</span>)</p></body></html>", nullptr));
+        pushButtonEdit->setText(QCoreApplication::translate("MainWindow", "Edit", nullptr));
+        labelModel_edit->setText(QCoreApplication::translate("MainWindow", "Model", nullptr));
+        labelPwmFrewq_edit->setText(QCoreApplication::translate("MainWindow", "PWM Frequency (kHz)", nullptr));
+        labelControlSystem_edit->setText(QCoreApplication::translate("MainWindow", "Control System Configuration", nullptr));
+        strokeLabel_edit->setText(QCoreApplication::translate("MainWindow", "Stroke lenght (mm)", nullptr));
         Tab->setTabText(Tab->indexOf(editTab), QCoreApplication::translate("MainWindow", "Edit", nullptr));
-        labelSpecifications_3->setText(QCoreApplication::translate("MainWindow", "Linear Acuator ", nullptr));
-        pushButtonInsert_3->setText(QCoreApplication::translate("MainWindow", "UPDATE", nullptr));
-        strokeLabel_3->setText(QCoreApplication::translate("MainWindow", "Linear speed (mm/s)", nullptr));
-        labelMaxPush_3->setText(QCoreApplication::translate("MainWindow", "Position (mm)", nullptr));
-        labelDutyCycle_3->setText(QCoreApplication::translate("MainWindow", "Rotor speed (rad/s)", nullptr));
-        labelModel_3->setText(QCoreApplication::translate("MainWindow", "Status", nullptr));
-        labelPwmFrewq_3->setText(QCoreApplication::translate("MainWindow", "Eample 1", nullptr));
-        labelMaxPull_3->setText(QCoreApplication::translate("MainWindow", "Pulse rate (#imp/mm)", nullptr));
-        labelControlSystem_3->setText(QCoreApplication::translate("MainWindow", "Drive", nullptr));
-        labelPwmFrewq_4->setText(QCoreApplication::translate("MainWindow", "Eample 1", nullptr));
-        labelPwmFrewq_5->setText(QCoreApplication::translate("MainWindow", "Eample 1", nullptr));
+        labelLinearActautor->setText(QCoreApplication::translate("MainWindow", "Linear Acuator ", nullptr));
+        pushButtonInsert_update->setText(QCoreApplication::translate("MainWindow", "UPDATE", nullptr));
+        labelLinearSpeed->setText(QCoreApplication::translate("MainWindow", "Linear speed (mm/s)", nullptr));
+        labelPosition->setText(QCoreApplication::translate("MainWindow", "Position (mm)", nullptr));
+        labelRotorSpeed->setText(QCoreApplication::translate("MainWindow", "Rotor speed (rad/s)", nullptr));
+        labelStatus->setText(QCoreApplication::translate("MainWindow", "Status", nullptr));
+        labelExample3->setText(QCoreApplication::translate("MainWindow", "Example 3", nullptr));
+        labelPulseRate->setText(QCoreApplication::translate("MainWindow", "Pulse rate (#imp/mm)", nullptr));
+        labelDrive->setText(QCoreApplication::translate("MainWindow", "Drive", nullptr));
+        labelExample2->setText(QCoreApplication::translate("MainWindow", "Example 2", nullptr));
+        labelExample1->setText(QCoreApplication::translate("MainWindow", "Eample 1", nullptr));
         Tab->setTabText(Tab->indexOf(statusTab), QCoreApplication::translate("MainWindow", "Status", nullptr));
     } // retranslateUi
 

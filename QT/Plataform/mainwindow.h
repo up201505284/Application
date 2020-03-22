@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "/home/anabela/Desktop/TESE/application/VSCode/LinearActuator.h"
+#include "/home/anabela/Desktop/TESE/Application/VSCode/LinearActuator.h"
 #include <QList>
 #include <QListIterator>
 
@@ -20,7 +20,11 @@ public:
 
     void setListOfActuators (QList<LinearActuator> _listOfActuators);
     void clearInsert (void);
-    void setInsert(LinearActuatorSpecifications* _specifications, ControlSystem* _control);
+    void addLinearActuator (LinearActuatorSpecifications* _specifications, ControlSystem* _control);
+    void editLinearActuator ();
+    void setEdit(void);
+    void setStatus();
+
     QList<LinearActuator> listOfActuators;
 
 
@@ -28,10 +32,11 @@ public:
 
 private slots:
     void on_pushButtonInsert_clicked();
-
     void on_chooseModelStatus_currentIndexChanged(const QString &model);
-
     void on_chooseModelEdit_currentIndexChanged(const QString &arg1);
+    void on_pushButtonInsert_update_clicked();
+
+    void on_pushButtonEdit_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = Plataform1.0.0
-DISTDIR = /home/anabela/Desktop/TESE/application/QT/build-Plataform-Desktop_Qt_5_14_1_GCC_64bit-Debug/.tmp/Plataform1.0.0
+DISTDIR = /home/anabela/Desktop/TESE/Application/QT/build-Plataform-Desktop_Qt_5_14_1_GCC_64bit-Debug/.tmp/Plataform1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/anabela/Qt/5.14.1/gcc_64/lib
 LIBS          = $(SUBLIBS) /home/anabela/Qt/5.14.1/gcc_64/lib/libQt5Widgets.so /home/anabela/Qt/5.14.1/gcc_64/lib/libQt5Gui.so /home/anabela/Qt/5.14.1/gcc_64/lib/libQt5Core.so -lGL -lpthread   
@@ -883,14 +883,11 @@ moc_mainwindow.cpp: ../Plataform/mainwindow.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtouchdevice.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qtabwidget.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qicon.h \
-		/home/anabela/Desktop/TESE/application/VSCode/LinearActuator.h \
-		../../VSCode/ControlSystem.h \
-		../../VSCode/LinearActuatorSpecifications.h \
-		../../VSCode/LinearActuatorStatus.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QList \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QListIterator \
 		moc_predefs.h \
 		/home/anabela/Qt/5.14.1/gcc_64/bin/moc
-	/home/anabela/Qt/5.14.1/gcc_64/bin/moc $(DEFINES) --include /home/anabela/Desktop/TESE/application/QT/build-Plataform-Desktop_Qt_5_14_1_GCC_64bit-Debug/moc_predefs.h -I/home/anabela/Qt/5.14.1/gcc_64/mkspecs/linux-g++ -I/home/anabela/Desktop/TESE/application/QT/Plataform -I/home/anabela/Qt/5.14.1/gcc_64/include -I/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets -I/home/anabela/Qt/5.14.1/gcc_64/include/QtGui -I/home/anabela/Qt/5.14.1/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../Plataform/mainwindow.h -o moc_mainwindow.cpp
+	/home/anabela/Qt/5.14.1/gcc_64/bin/moc $(DEFINES) --include /home/anabela/Desktop/TESE/Application/QT/build-Plataform-Desktop_Qt_5_14_1_GCC_64bit-Debug/moc_predefs.h -I/home/anabela/Qt/5.14.1/gcc_64/mkspecs/linux-g++ -I/home/anabela/Desktop/TESE/Application/QT/Plataform -I/home/anabela/Qt/5.14.1/gcc_64/include -I/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets -I/home/anabela/Qt/5.14.1/gcc_64/include/QtGui -I/home/anabela/Qt/5.14.1/gcc_64/include/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include ../Plataform/mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1036,11 +1033,8 @@ main.o: ../Plataform/main.cpp ../Plataform/mainwindow.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtouchdevice.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qtabwidget.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qicon.h \
-		/home/anabela/Desktop/TESE/application/VSCode/LinearActuator.h \
-		../../VSCode/ControlSystem.h \
-		../../VSCode/LinearActuatorSpecifications.h \
-		../../VSCode/LinearActuatorStatus.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QList \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QListIterator \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QApplication \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qapplication.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/qcoreapplication.h \
@@ -1158,11 +1152,8 @@ mainwindow.o: ../Plataform/mainwindow.cpp ../Plataform/mainwindow.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtouchdevice.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qtabwidget.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qicon.h \
-		/home/anabela/Desktop/TESE/application/VSCode/LinearActuator.h \
-		../../VSCode/ControlSystem.h \
-		../../VSCode/LinearActuatorSpecifications.h \
-		../../VSCode/LinearActuatorStatus.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QList \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QListIterator \
 		ui_mainwindow.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QVariant \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QApplication \
@@ -1172,17 +1163,43 @@ mainwindow.o: ../Plataform/mainwindow.cpp ../Plataform/mainwindow.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qguiapplication.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qinputmethod.h \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QMenuBar \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qmenubar.h \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qmenu.h \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qaction.h \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qactiongroup.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QComboBox \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qcombobox.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qstyleoption.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qvalidator.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/qregularexpression.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qslider.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qabstractslider.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qstyle.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qtabbar.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qrubberband.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qframe.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QFrame \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QGridLayout \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qgridlayout.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qlayout.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qlayoutitem.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qboxlayout.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QLabel \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qlabel.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QLineEdit \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qlineedit.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtextcursor.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtextformat.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qpen.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtGui/qtextoption.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QPushButton \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qpushbutton.h \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QSpacerItem \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QStatusBar \
 		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/qstatusbar.h \
-		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QWidget
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QTabWidget \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtWidgets/QWidget \
+		/home/anabela/Qt/5.14.1/gcc_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../Plataform/mainwindow.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 

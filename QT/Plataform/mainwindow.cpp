@@ -27,7 +27,7 @@ void MainWindow::setListOfActuators (QList<LinearActuator> _listOfActuators)
     listOfActuators = _listOfActuators;
 
 }
-void MainWindow::setInsert(LinearActuatorSpecifications* _specifications, ControlSystem* _control)
+void MainWindow::addLinearActuator(LinearActuatorSpecifications* _specifications, ControlSystem* _control)
 {
     _specifications->setModel(ui->model->text().toStdString());
     _specifications->setMaxCurrent(ui->maxCurrent->text().toFloat());
@@ -35,11 +35,30 @@ void MainWindow::setInsert(LinearActuatorSpecifications* _specifications, Contro
     _specifications->setMaxLoadPush(ui->maxLoadPull->text().toFloat());
     _specifications->setStrokeLenght(ui->strokeLenght->text().toFloat());
     _specifications->setPowerRating(ui->powerRating->text().toInt());
-    _specifications->setDutyCycle(ui->model->text().toInt());
+    _specifications->setDutyCycle(ui->dutyCycle->text().toInt());
 
     _control->setPwmFrequency(ui->pwmFrequency->text().toInt());
     _control->setAccelarationRate(ui->accelarationRate->text().toFloat());
     _control->setAccelarationTime(ui->accelarationTime->text().toFloat());
+}
+
+void MainWindow::editLinearActuator ()
+{
+    for ( LinearActuator _linearActautor : listOfActuators) {
+        if (QString::fromStdString(_linearActautor.getSpecifications()->getModel()) == ui->chooseModelEdit->currentText()) {
+            _linearActautor.getSpecifications()->setModel(ui->model_edit->text().toStdString());
+            _linearActautor.getSpecifications()->setMaxCurrent(ui->maxCurrent_edit->text().toFloat());
+            _linearActautor.getSpecifications()->setMaxLoadPull(ui->maxLoadPush_edit->text().toFloat());
+            _linearActautor.getSpecifications()->setMaxLoadPush(ui->maxLoadPull_edit->text().toFloat());
+            _linearActautor.getSpecifications()->setStrokeLenght(ui->strokeLenght_edit->text().toFloat());
+            _linearActautor.getSpecifications()->setPowerRating(ui->powerRating_edit->text().toInt());
+            _linearActautor.getSpecifications()->setDutyCycle(ui->dutyCycle_edit->text().toInt());
+
+            _linearActautor.getControl()->setPwmFrequency(ui->pwmFrequency_edit->text().toInt());
+            _linearActautor.getControl()->setAccelarationRate(ui->accelarationRate_edit->text().toFloat());
+            _linearActautor.getControl()->setAccelarationTime(ui->accelarationTime_edit->text().toFloat());
+        }
+    }
 }
 
 void MainWindow::clearInsert (void)
@@ -58,6 +77,43 @@ void MainWindow::clearInsert (void)
 
 }
 
+void MainWindow::setStatus(void)
+{
+    for ( LinearActuator _linearActuator : listOfActuators) {
+        if (QString::fromStdString(_linearActuator.getSpecifications()->getModel()) == ui->chooseModelStatus->currentText()) {
+            ui->status->setText(QString::fromStdString(_linearActuator.getStatus()->getState()));
+            ui->position->setText(QString::number(_linearActuator.getStatus()->getPosition()));
+            ui->rotorSpeed->setText(QString::number(_linearActuator.getStatus()->getRotorSpeed()));
+            ui->linearSpeed->setText(QString::number(_linearActuator.getStatus()->getLinearSpeed()));
+            ui->pulseRate->setText(QString::number(_linearActuator.getSpecifications()->getPulseRate()));
+            break;
+        }
+
+    }
+}
+
+void MainWindow::setEdit(void)
+{
+    for ( LinearActuator _linearActuator : listOfActuators) {
+        if (QString::fromStdString(_linearActuator.getSpecifications()->getModel()) == ui->chooseModelStatus->currentText()) {
+            ui->model_edit->setText(QString::fromStdString(_linearActuator.getSpecifications()->getModel()));
+            ui->maxCurrent_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxCurrent()));
+            ui->maxLoadPull_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxLoadPull()));
+            ui->maxLoadPush_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxLoadPush()));
+            ui->powerRating_edit->setText(QString::number(_linearActuator.getSpecifications()->getPowerRating()));
+            ui->dutyCycle_edit->setText(QString::number(_linearActuator.getSpecifications()->getDutyCycle()));
+            ui->strokeLenght_edit->setText(QString::number(_linearActuator.getSpecifications()->getStrokeLenght()));
+
+            ui->accelarationRate_edit->setText(QString::number(_linearActuator.getControl()->getAccelarationRate()));
+            ui->accelarationTime_edit->setText(QString::number(_linearActuator.getControl()->getAccelarationRate()));
+            ui->pwmFrequency_edit->setText(QString::number(_linearActuator.getControl()->getPwmFrequency()));
+
+            break;
+        }
+
+    }
+}
+
 void MainWindow::on_pushButtonInsert_clicked()
 {
     LinearActuatorSpecifications* _specifications = new LinearActuatorSpecifications();
@@ -65,7 +121,7 @@ void MainWindow::on_pushButtonInsert_clicked()
     ControlSystem* _control = new ControlSystem();
 
 
-    setInsert(_specifications, _control);
+    addLinearActuator(_specifications, _control);
     qDebug()<<QString::fromStdString(_specifications->getModel());
 
     LinearActuator _linearActuator =  LinearActuator(_specifications, _status, _control);
@@ -77,6 +133,7 @@ void MainWindow::on_pushButtonInsert_clicked()
     ui->Tab->setCurrentIndex(STATUS_TAB);
     ui->chooseModelStatus->setCurrentText(QString::fromStdString(_linearActuator.getSpecifications()->getModel()));
 
+    clearInsert();
 
 }
 
@@ -84,23 +141,27 @@ void MainWindow::on_pushButtonInsert_clicked()
 
 void MainWindow::on_chooseModelStatus_currentIndexChanged(const QString &model)
 {
-    ui->model_edit->setText( model);
+    setStatus();
 }
 
 void MainWindow::on_chooseModelEdit_currentIndexChanged(const QString &model)
 {
-    for ( LinearActuator _linearActuator : listOfActuators) {
-        if (QString::fromStdString(_linearActuator.getSpecifications()->getModel()) == model) {
-            ui->model_edit->setText( model);
-            ui->dutyCycle_edit->setText(QString::number(_linearActuator.getSpecifications()->getDutyCycle()));
-            ui->strokeLenght_edit->setText(QString::number(_linearActuator.getSpecifications()->getStrokeLenght()));
-            ui->maxLoadPull_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxLoadPull()));
-            ui->maxLoadPush_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxLoadPush()));
-            ui->maxCurrent_edit->setText(QString::number(_linearActuator.getSpecifications()->getMaxCurrent()));
-            ui->powerRating_edit->setText(QString::number(_linearActuator.getSpecifications()->getPowerRating()));
-        }
 
-    }
-    ui->model_edit->setText(model);
+   setEdit();
+
+}
+
+void MainWindow::on_pushButtonInsert_update_clicked()
+{
+    setStatus();
+}
+
+void MainWindow::on_pushButtonEdit_clicked()
+{
+    editLinearActuator();
+
+
+    ui->Tab->setCurrentIndex(STATUS_TAB);
+    ui->chooseModelStatus->setCurrentText(ui->chooseModelEdit->currentText());
 
 }

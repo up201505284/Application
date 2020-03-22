@@ -30,7 +30,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="insertTab">
      <attribute name="title">
@@ -331,7 +331,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="7" column="0">
-        <widget class="QLabel" name="labelMaxCurrent_2">
+        <widget class="QLabel" name="labelMaxCurrent_edit">
          <property name="text">
           <string>Max. current (A)</string>
          </property>
@@ -371,7 +371,7 @@
         <widget class="QLineEdit" name="accelarationTime_edit"/>
        </item>
        <item row="0" column="0" colspan="3">
-        <widget class="QLabel" name="labelSpecifications_2">
+        <widget class="QLabel" name="labelSpecifications_edit">
          <property name="text">
           <string>Linear Acuator Specifications</string>
          </property>
@@ -381,7 +381,7 @@
         </widget>
        </item>
        <item row="9" column="0">
-        <spacer name="verticalSpacer_2">
+        <spacer name="verticalSpacer_edit">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -414,7 +414,7 @@
         <widget class="QLineEdit" name="model_edit"/>
        </item>
        <item row="8" column="0">
-        <widget class="QLabel" name="labelPowerRating_2">
+        <widget class="QLabel" name="labelPowerRating_edit">
          <property name="text">
           <string>Power rating (V)</string>
          </property>
@@ -424,7 +424,7 @@
         </widget>
        </item>
        <item row="3" column="4">
-        <widget class="QLabel" name="labelAccelTime_2">
+        <widget class="QLabel" name="labelAccelTime_edit">
          <property name="text">
           <string>Aceelaration time (ms)</string>
          </property>
@@ -444,7 +444,7 @@
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="labelDutyCycle_2">
+        <widget class="QLabel" name="labelDutyCycle_edit">
          <property name="text">
           <string>Duty cycle (%)</string>
          </property>
@@ -454,7 +454,7 @@
         </widget>
        </item>
        <item row="6" column="0">
-        <widget class="QLabel" name="labelMaxPull_2">
+        <widget class="QLabel" name="labelMaxPull_edit">
          <property name="text">
           <string>Max. load in pull (N)</string>
          </property>
@@ -471,7 +471,7 @@
         </widget>
        </item>
        <item row="5" column="0">
-        <widget class="QLabel" name="labelMaxPush_2">
+        <widget class="QLabel" name="labelMaxPush_edit">
          <property name="text">
           <string>Max. load in push (N)</string>
          </property>
@@ -484,7 +484,7 @@
         <widget class="QLineEdit" name="maxLoadPush_edit"/>
        </item>
        <item row="2" column="4">
-        <widget class="QLabel" name="labelAccelRate_2">
+        <widget class="QLabel" name="labelAccelRate_edit">
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Accelaration rate (mm/s&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -494,14 +494,14 @@
         </widget>
        </item>
        <item row="10" column="0" colspan="7">
-        <widget class="QPushButton" name="pushButtonInsert_2">
+        <widget class="QPushButton" name="pushButtonEdit">
          <property name="text">
           <string>Edit</string>
          </property>
         </widget>
        </item>
        <item row="2" column="0">
-        <widget class="QLabel" name="labelModel_2">
+        <widget class="QLabel" name="labelModel_edit">
          <property name="text">
           <string>Model</string>
          </property>
@@ -532,7 +532,7 @@
         </widget>
        </item>
        <item row="4" column="3">
-        <spacer name="horizontalSpacer_2">
+        <spacer name="horizontalSpacer_edit">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -559,7 +559,7 @@
         </widget>
        </item>
        <item row="4" column="4">
-        <widget class="QLabel" name="labelPwmFrewq_2">
+        <widget class="QLabel" name="labelPwmFrewq_edit">
          <property name="text">
           <string>PWM Frequency (kHz)</string>
          </property>
@@ -575,7 +575,7 @@
         <widget class="QLineEdit" name="strokeLenght_edit"/>
        </item>
        <item row="0" column="4" colspan="3">
-        <widget class="QLabel" name="labelControlSystem_2">
+        <widget class="QLabel" name="labelControlSystem_edit">
          <property name="text">
           <string>Control System Configuration</string>
          </property>
@@ -585,7 +585,7 @@
         </widget>
        </item>
        <item row="3" column="0">
-        <widget class="QLabel" name="strokeLabel_2">
+        <widget class="QLabel" name="strokeLabel_edit">
          <property name="text">
           <string>Stroke lenght (mm)</string>
          </property>
@@ -638,7 +638,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="0" column="0" colspan="3">
-        <widget class="QLabel" name="labelSpecifications_3">
+        <widget class="QLabel" name="labelLinearActautor">
          <property name="text">
           <string>Linear Acuator </string>
          </property>
@@ -648,7 +648,7 @@
         </widget>
        </item>
        <item row="5" column="3">
-        <spacer name="horizontalSpacer_3">
+        <spacer name="horizontalSpacer_status">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -682,14 +682,14 @@
         </widget>
        </item>
        <item row="10" column="0" colspan="7">
-        <widget class="QPushButton" name="pushButtonInsert_3">
+        <widget class="QPushButton" name="pushButtonInsert_update">
          <property name="text">
           <string>UPDATE</string>
          </property>
         </widget>
        </item>
        <item row="4" column="0">
-        <widget class="QLabel" name="strokeLabel_3">
+        <widget class="QLabel" name="labelLinearSpeed">
          <property name="text">
           <string>Linear speed (mm/s)</string>
          </property>
@@ -706,7 +706,7 @@
         </widget>
        </item>
        <item row="6" column="0">
-        <widget class="QLabel" name="labelMaxPush_3">
+        <widget class="QLabel" name="labelPosition">
          <property name="text">
           <string>Position (mm)</string>
          </property>
@@ -716,7 +716,7 @@
         </widget>
        </item>
        <item row="4" column="2">
-        <widget class="QLineEdit" name="strokeLenght_3">
+        <widget class="QLineEdit" name="linearSpeed">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -726,7 +726,7 @@
         </widget>
        </item>
        <item row="5" column="0">
-        <widget class="QLabel" name="labelDutyCycle_3">
+        <widget class="QLabel" name="labelRotorSpeed">
          <property name="text">
           <string>Rotor speed (rad/s)</string>
          </property>
@@ -736,7 +736,7 @@
         </widget>
        </item>
        <item row="3" column="0">
-        <widget class="QLabel" name="labelModel_3">
+        <widget class="QLabel" name="labelStatus">
          <property name="text">
           <string>Status</string>
          </property>
@@ -753,9 +753,9 @@
         </widget>
        </item>
        <item row="5" column="4">
-        <widget class="QLabel" name="labelPwmFrewq_3">
+        <widget class="QLabel" name="labelExample3">
          <property name="text">
-          <string>Eample 1</string>
+          <string>Example 3</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
@@ -763,7 +763,7 @@
         </widget>
        </item>
        <item row="5" column="6">
-        <widget class="QLineEdit" name="pwmFrequency_3">
+        <widget class="QLineEdit" name="example3">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -773,7 +773,7 @@
         </widget>
        </item>
        <item row="3" column="2">
-        <widget class="QLineEdit" name="model_3">
+        <widget class="QLineEdit" name="status">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -783,7 +783,7 @@
         </widget>
        </item>
        <item row="3" column="6">
-        <widget class="QLineEdit" name="accelarationRate_3">
+        <widget class="QLineEdit" name="example1">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -793,7 +793,7 @@
         </widget>
        </item>
        <item row="7" column="0">
-        <widget class="QLabel" name="labelMaxPull_3">
+        <widget class="QLabel" name="labelPulseRate">
          <property name="text">
           <string>Pulse rate (#imp/mm)</string>
          </property>
@@ -803,7 +803,7 @@
         </widget>
        </item>
        <item row="6" column="2">
-        <widget class="QLineEdit" name="maxLoadPush_3">
+        <widget class="QLineEdit" name="position">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -827,7 +827,7 @@
         </widget>
        </item>
        <item row="9" column="0">
-        <spacer name="verticalSpacer_3">
+        <spacer name="verticalSpacer_status">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -840,7 +840,7 @@
         </spacer>
        </item>
        <item row="0" column="4" colspan="3">
-        <widget class="QLabel" name="labelControlSystem_3">
+        <widget class="QLabel" name="labelDrive">
          <property name="text">
           <string>Drive</string>
          </property>
@@ -850,7 +850,7 @@
         </widget>
        </item>
        <item row="4" column="6">
-        <widget class="QLineEdit" name="accelarationTime_3">
+        <widget class="QLineEdit" name="example2">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -867,9 +867,9 @@
         </widget>
        </item>
        <item row="4" column="4">
-        <widget class="QLabel" name="labelPwmFrewq_4">
+        <widget class="QLabel" name="labelExample2">
          <property name="text">
-          <string>Eample 1</string>
+          <string>Example 2</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
@@ -884,7 +884,7 @@
         </widget>
        </item>
        <item row="7" column="2">
-        <widget class="QLineEdit" name="maxLoadPull_3">
+        <widget class="QLineEdit" name="pulseRate">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -894,7 +894,7 @@
         </widget>
        </item>
        <item row="5" column="2">
-        <widget class="QLineEdit" name="dutyCycle_3">
+        <widget class="QLineEdit" name="rotorSpeed">
          <property name="enabled">
           <bool>false</bool>
          </property>
@@ -918,7 +918,7 @@
         </widget>
        </item>
        <item row="3" column="4">
-        <widget class="QLabel" name="labelPwmFrewq_5">
+        <widget class="QLabel" name="labelExample1">
          <property name="text">
           <string>Eample 1</string>
          </property>
