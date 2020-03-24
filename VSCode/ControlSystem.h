@@ -5,25 +5,22 @@ class ControlSystem
 {
 private:
     float accelarationRate  ; // 4.1 mm/s²
-    float accelarationTime  ; // 1.4 s
-    int   pwmFrequency      ; // 25kHz
-
+    int accelarationTime  ; // 1.4 s
+    
 public:
     // Constructor
-    ControlSystem();
+    ControlSystem(float _accelarationRate, int _accelarationTime);
 
     // Destructor
     ~ControlSystem();
 
     // "Set" Methods
-    void setAccelarationRate(float _accelarationRate_)  ;
-    void setAccelarationTime(float _accelarationRate_)  ;
-    void setPwmFrequency    (int _pwmFrequency)         ;
+    void setAccelarationRate(float _accelarationRate)   ;
+    void setAccelarationTime(int _accelarationTime)     ;
 
      // "Get" Methods
     float   getAccelarationRate (void);
-    float   getAccelarationTime (void);
-    int     getPwmFrequency     (void);
+    int     getAccelarationTime (void);
 };
 
 

@@ -3,19 +3,26 @@
 
 #include "ControlSystem.h"
 #include "LinearActuatorSpecifications.h"
-#include "LinearActuatorStatus.h"
+#include "LinearActuatorStatusBasic.h"
+#include "LinearActuatorStatusAdvanced.h"
+#include "Connection.h"
 
 class LinearActuator {
     private:
-        LinearActuatorSpecifications*   specifications;
-        LinearActuatorStatus*           status;    
-        ControlSystem*                  control;      
+        LinearActuatorSpecifications*   specifications  ;
+        LinearActuatorStatusAdvanced*   statusAdvanced  ;
+        LinearActuatorStatusBasic*      statusBasic     ;    
+        ControlSystem*                  control         ;      
+        Connection*                     connection      ;
+    
     public:
         // Constructor
         LinearActuator(
-            LinearActuatorSpecifications*   _specifications,
-            LinearActuatorStatus*           _status,
-            ControlSystem*                  _control   
+            LinearActuatorSpecifications*   _specifications ,
+            LinearActuatorStatusAdvanced*   _statusAdvanced ,
+            LinearActuatorStatusBasic*      _statusBasic    ,
+            ControlSystem*                  _control        ,
+            Connection*                     _connection   
         );
 
         // Destructor
@@ -23,14 +30,18 @@ class LinearActuator {
 
         // "Set" methods
         void setSpecifications  (LinearActuatorSpecifications*  _specifications );
-        void setStatus          (LinearActuatorStatus*          _status         );
-        void setControl         (ControlSystem*                 _control         );
+        void setStatusBasic     (LinearActuatorStatusBasic*     _statusBasic    );
+        void setStatusAdvanced  (LinearActuatorStatusAdvanced*  _statusAdvanced );
+        void setControl         (ControlSystem*                 _control        );
+        void setConnection      (Connection*                    _connection     );
 
 
         // "Get" methods
         LinearActuatorSpecifications*   getSpecifications   (void);
-        LinearActuatorStatus*           getStatus           (void);
+        LinearActuatorStatusBasic*      getStatusBasic      (void);
+        LinearActuatorStatusAdvanced*   getStatusAdvanced   (void);
         ControlSystem*                  getControl          (void); 
+        Connection*                     getConnection       (void);
     };
 
 #endif // LINEARACTUATOR_H

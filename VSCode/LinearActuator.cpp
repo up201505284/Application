@@ -2,12 +2,16 @@
 
 LinearActuator::LinearActuator(
             LinearActuatorSpecifications*   _specifications ,
-            LinearActuatorStatus*           _status         ,
-            ControlSystem*                  _control) {
+            LinearActuatorStatusAdvanced*   _statusAdvanced ,
+            LinearActuatorStatusBasic*      _statusBasic    ,
+            ControlSystem*                  _control        ,
+            Connection*                     _connection     ) {
      
-    LinearActuator::setSpecifications   (_specifications);
-    LinearActuator::setStatus           (_status);
-    LinearActuator::setControl          (_control); 
+    setSpecifications   (_specifications);
+    setStatusBasic      (_statusBasic   );
+    setStatusAdvanced   (_statusAdvanced);
+    setControl          (_control       ); 
+    setConnection       (_connection    );
 
 }
 
@@ -18,22 +22,38 @@ void LinearActuator::setSpecifications(LinearActuatorSpecifications* _specificat
     specifications = _specifications;
 }
 
-void LinearActuator::setStatus(LinearActuatorStatus* _status) {
-    status = _status;
+void LinearActuator::setStatusBasic(LinearActuatorStatusBasic* _statusBasic) {
+    statusBasic = _statusBasic;
+}
+
+void LinearActuator::setStatusAdvanced(LinearActuatorStatusAdvanced* _statusAdvanced) {
+    statusAdvanced = _statusAdvanced;
 }
 
 void LinearActuator::setControl(ControlSystem* _control) {
     control = _control;
 }
 
+void LinearActuator::setConnection(Connection* _connection) {
+    connection = _connection;
+}
+
 LinearActuatorSpecifications* LinearActuator::getSpecifications (void) {
     return specifications;
 }
 
-LinearActuatorStatus* LinearActuator::getStatus (void) {
-    return status;
+LinearActuatorStatusBasic* LinearActuator::getStatusBasic (void) {
+    return statusBasic;
+}
+
+LinearActuatorStatusAdvanced* LinearActuator::getStatusAdvanced (void) {
+    return statusAdvanced;
 }
 
 ControlSystem* LinearActuator::getControl (void) {
     return control;
+}
+
+Connection* LinearActuator::getConnection (void) {
+    return connection;
 }

@@ -3,8 +3,21 @@
 
 using namespace std;
 
-LinearActuatorSpecifications::LinearActuatorSpecifications() {
+LinearActuatorSpecifications::LinearActuatorSpecifications(
+    float   _strokeLenght       , 
+    float   _maxCurrent         , 
+    float   _powerRating        , 
+    int     _numberHallSensors  , 
+    string  _model              ) {
+
+        setStrokeLenght     (_strokeLenght      );
+        setMaxCurrent       (_maxCurrent        );
+        setPowerRating      (_powerRating       );
+        setNumberHallSensors(_numberHallSensors );
+        setModel            (_model             );
 }
+
+
 
 LinearActuatorSpecifications::~LinearActuatorSpecifications() {
 }
@@ -57,6 +70,10 @@ void LinearActuatorSpecifications::setDutyCycle(int  _dutyCycle) {
         printf("INVALID VALUE \n");
 }
 
+void LinearActuatorSpecifications::setNumberHallSensors(int _numberHallSensors) {
+    numberHallSensors = _numberHallSensors;
+}
+
 void LinearActuatorSpecifications::setModel(string  _model) {
     model = _model;
 }
@@ -87,6 +104,10 @@ int LinearActuatorSpecifications::getPulseRate(void) {
 
 int LinearActuatorSpecifications::getDutyCycle(void) {
     return dutyCycle;
+}
+
+int LinearActuatorSpecifications::getNumberHallSensors(void) {
+    return numberHallSensors;
 }
 
 string LinearActuatorSpecifications::getModel(void) {
