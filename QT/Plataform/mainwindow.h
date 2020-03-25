@@ -4,7 +4,12 @@
 #include <QMainWindow>
 #include "/home/anabela/Desktop/TESE/Application/VSCode/LinearActuator.h"
 #include <QList>
-#include <QListIterator>
+#include <QString>
+#include <QDebug>
+
+#define INSERT_TAB  0
+#define MANAGER_TAB 1
+#define BASIC_TAB   2
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -15,28 +20,52 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    // Construtor
+    MainWindow(QWidget *parent = nullptr, QList<LinearActuator*> _listOfActuators = {});
+
+    // Destructor
     ~MainWindow();
 
-    void setListOfActuators (QList<LinearActuator> _listOfActuators);
-    void clearInsert (void);
-    void addLinearActuator (LinearActuatorSpecifications* _specifications, ControlSystem* _control);
-    void editLinearActuator ();
-    void setEdit(void);
-    void setStatus();
+    // set methods
+    void setListOfActuators(QList<LinearActuator*> _listOfActuators);
 
-    QList<LinearActuator> listOfActuators;
+    // get methods
+    QList<LinearActuator*> getListOfActuators(void);
+
+    // clear functions
+    void clearInsertTab         (void);
+    void clearManagerTab        (void);
+    void clearStatusBasicTab    (void);
+
+    // set funtions
+    void setManagerTab          (void       );
+    void setStatusBasicTab      (void       );
+    void setCurrentTab          (int index  );
+    void updateComboBoxManager  (void       );
+    void updateComboBoxBasic    (void       );
+
+    // get functions
+    LinearActuator* getInsertTab        (void           );
+    LinearActuator* getLinearActuator   (string model   );
 
 
+    // enable functions
+    void setReadOnlyManager (bool _state);
+    void setReadOnlyBasic   (bool _state);
+
+
+    QList<LinearActuator*> listOfActuators;
 
 
 private slots:
-    void on_pushButtonInsert_clicked();
-    void on_chooseModelStatus_currentIndexChanged(const QString &model);
-    void on_chooseModelEdit_currentIndexChanged(const QString &arg1);
-    void on_pushButtonInsert_update_clicked();
 
-    void on_pushButtonEdit_clicked();
+
+    void on_comboBoxManager_activated       (const QString &model);
+    void on_comboBoxStatusBasic_activated   (const QString &model);
+
+    void on_pushButtonInsert_clicked();
+
+    void on_pushButtonUpdateStatusBasic_clicked();
 
 private:
     Ui::MainWindow *ui;

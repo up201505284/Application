@@ -15,6 +15,9 @@ LinearActuatorSpecifications::LinearActuatorSpecifications(
         setPowerRating      (_powerRating       );
         setNumberHallSensors(_numberHallSensors );
         setModel            (_model             );
+        setDutyCycle        (0                  );
+        setMaxLoadPull      (0                  );
+        setMaxLoadPush      (0                  );
 }
 
 
@@ -37,14 +40,14 @@ void LinearActuatorSpecifications::setMaxCurrent(float  _maxCurrent) {
 }
 
 void LinearActuatorSpecifications::setMaxLoadPush(int  _maxLoadPush) {
-    if (_maxLoadPush > 0)
+    if (_maxLoadPush >= 0)
         maxLoadPush = _maxLoadPush;
     else // Error
         printf("INVALID VALUE \n");
 }
 
 void LinearActuatorSpecifications::setMaxLoadPull(int  _maxLoadPull) {
-    if (_maxLoadPull > 0)
+    if (_maxLoadPull >= 0)
         maxLoadPull = _maxLoadPull;
     else // Error
         printf("INVALID VALUE \n");}
@@ -64,7 +67,7 @@ void LinearActuatorSpecifications::setPulseRate(int  _pulseRate) {
 }
 
 void LinearActuatorSpecifications::setDutyCycle(int  _dutyCycle) {
-    if (_dutyCycle > 0 && _dutyCycle <= 100)
+    if (_dutyCycle >= 0 && _dutyCycle <= 100)
         dutyCycle = _dutyCycle;
     else // Error
         printf("INVALID VALUE \n");

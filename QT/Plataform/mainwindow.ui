@@ -19,8 +19,8 @@
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>751</width>
-      <height>391</height>
+      <width>1026</width>
+      <height>363</height>
      </rect>
     </property>
     <property name="tabPosition">
@@ -30,7 +30,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="insertTab">
      <attribute name="title">
@@ -39,78 +39,22 @@
      <widget class="QWidget" name="gridLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>30</y>
+        <x>60</x>
+        <y>10</y>
         <width>621</width>
-        <height>311</height>
+        <height>313</height>
        </rect>
       </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="6" column="0">
-        <widget class="QLabel" name="labelMaxPull">
-         <property name="text">
-          <string>Max. load in pull (N)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="labelMaxPush">
-         <property name="text">
-          <string>Max. load in push (N)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="strokeLenght"/>
-       </item>
-       <item row="0" column="4" colspan="3">
-        <widget class="QLabel" name="labelControlSystem">
-         <property name="text">
-          <string>Control System Configuration</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="1">
-        <widget class="Line" name="line_6">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
+      <layout class="QGridLayout" name="gridLayoutInsert">
        <item row="8" column="0">
-        <widget class="QLabel" name="labelPowerRating">
+        <widget class="QLabel" name="labelMaxCurrent">
          <property name="text">
-          <string>Power rating (V)</string>
+          <string>Max. current (A)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
-       </item>
-       <item row="7" column="2">
-        <widget class="QLineEdit" name="maxCurrent"/>
-       </item>
-       <item row="4" column="5">
-        <widget class="Line" name="line_12">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="model"/>
-       </item>
-       <item row="4" column="2">
-        <widget class="QLineEdit" name="dutyCycle"/>
        </item>
        <item row="0" column="0" colspan="3">
         <widget class="QLabel" name="labelSpecifications">
@@ -122,35 +66,8 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="1">
-        <widget class="Line" name="line_4">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <widget class="QLabel" name="labelAccelTime">
-         <property name="text">
-          <string>Aceelaration time (ms)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="strokeLabel">
-         <property name="text">
-          <string>Stroke lenght (mm)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
        <item row="4" column="3">
-        <spacer name="horizontalSpacer">
+        <spacer name="horizontalSpacerInsert">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -162,37 +79,56 @@
          </property>
         </spacer>
        </item>
-       <item row="2" column="4">
-        <widget class="QLabel" name="labelAccelRate">
+       <item row="0" column="4" colspan="3">
+        <widget class="QLabel" name="labelSotfStartStop">
          <property name="text">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Accelaration rate (mm/s&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>Soft start and stop configuration</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="labelDutyCycle">
+         <property name="text">
+          <string>Duty cycle (%)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="3" column="1">
-        <widget class="Line" name="line_2">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="9" column="0">
+        <widget class="QLabel" name="labelPowerRating">
+         <property name="text">
+          <string>Power rating (V)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="8" column="1">
-        <widget class="Line" name="line_7">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="dutyCycle"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelStroke">
+         <property name="text">
+          <string>Stroke lenght (mm)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="5" column="2">
-        <widget class="QLineEdit" name="maxLoadPush"/>
-       </item>
-       <item row="1" column="0" colspan="3">
-        <widget class="Line" name="line_8">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
+       <item row="6" column="4" colspan="3">
+        <widget class="QLabel" name="labelConnectionConfiguration">
+         <property name="text">
+          <string>Connection configuration</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
@@ -206,15 +142,15 @@
          </property>
         </widget>
        </item>
-       <item row="10" column="0" colspan="7">
-        <widget class="QPushButton" name="pushButtonInsert">
-         <property name="text">
-          <string>Insert</string>
+       <item row="8" column="1">
+        <widget class="Line" name="line_6">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
-       <item row="2" column="1">
-        <widget class="Line" name="line">
+       <item row="5" column="1">
+        <widget class="Line" name="line_4">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -223,32 +159,51 @@
        <item row="3" column="6">
         <widget class="QLineEdit" name="accelarationTime"/>
        </item>
-       <item row="7" column="0">
-        <widget class="QLabel" name="labelMaxCurrent">
+       <item row="1" column="0" colspan="3">
+        <widget class="Line" name="line_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="strokeLenght"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="labelMaxPull">
          <property name="text">
-          <string>Max. current (A)</string>
+          <string>Max. load in pull (N)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
-        <widget class="Line" name="line_5">
+       <item row="2" column="4">
+        <widget class="QLabel" name="labelAccelRate">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Accelaration rate (mm/s&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLineEdit" name="maxCurrent"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="model"/>
+       </item>
+       <item row="8" column="5">
+        <widget class="Line" name="line_25">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
-       <item row="1" column="4" colspan="3">
-        <widget class="Line" name="line_9">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="5">
-        <widget class="Line" name="line_10">
+       <item row="9" column="1">
+        <widget class="Line" name="line_7">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -261,11 +216,8 @@
          </property>
         </widget>
        </item>
-       <item row="2" column="6">
-        <widget class="QLineEdit" name="accelarationRate"/>
-       </item>
-       <item row="3" column="5">
-        <widget class="Line" name="line_11">
+       <item row="6" column="1">
+        <widget class="Line" name="line_5">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -274,204 +226,32 @@
        <item row="6" column="2">
         <widget class="QLineEdit" name="maxLoadPull"/>
        </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="labelDutyCycle">
+       <item row="3" column="4">
+        <widget class="QLabel" name="labelAccelTime">
          <property name="text">
-          <string>Duty cycle (%)</string>
+          <string>Accelaration time (ms)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="8" column="2">
-        <widget class="QLineEdit" name="powerRating"/>
-       </item>
-       <item row="4" column="4">
-        <widget class="QLabel" name="labelPwmFrewq">
-         <property name="text">
-          <string>PWM Frequency (kHz)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="6">
-        <widget class="QLineEdit" name="pwmFrequency"/>
-       </item>
-       <item row="9" column="0">
-        <spacer name="verticalSpacer">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>108</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-      </layout>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="editTab">
-     <attribute name="title">
-      <string>Edit</string>
-     </attribute>
-     <widget class="QWidget" name="gridLayoutWidget_2">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>10</y>
-        <width>551</width>
-        <height>331</height>
-       </rect>
-      </property>
-      <layout class="QGridLayout" name="gridLayout_2">
-       <item row="7" column="0">
-        <widget class="QLabel" name="labelMaxCurrent_edit">
-         <property name="text">
-          <string>Max. current (A)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1">
-        <widget class="Line" name="line_17">
+       <item row="2" column="5">
+        <widget class="Line" name="line_10">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="Line" name="line_15">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="3">
-        <widget class="Line" name="line_18">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="2">
-        <widget class="QLineEdit" name="powerRating_edit"/>
-       </item>
-       <item row="4" column="2">
-        <widget class="QLineEdit" name="dutyCycle_edit"/>
-       </item>
-       <item row="3" column="6">
-        <widget class="QLineEdit" name="accelarationTime_edit"/>
-       </item>
-       <item row="0" column="0" colspan="3">
-        <widget class="QLabel" name="labelSpecifications_edit">
-         <property name="text">
-          <string>Linear Acuator Specifications</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="9" column="0">
-        <spacer name="verticalSpacer_edit">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>108</height>
-          </size>
-         </property>
-        </spacer>
        </item>
        <item row="3" column="1">
-        <widget class="Line" name="line_16">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="2">
-        <widget class="QLineEdit" name="maxCurrent_edit"/>
-       </item>
-       <item row="2" column="1">
-        <widget class="Line" name="line_19">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="model_edit"/>
-       </item>
-       <item row="8" column="0">
-        <widget class="QLabel" name="labelPowerRating_edit">
-         <property name="text">
-          <string>Power rating (V)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <widget class="QLabel" name="labelAccelTime_edit">
-         <property name="text">
-          <string>Aceelaration time (ms)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="6">
-        <widget class="QLineEdit" name="accelarationRate_edit"/>
-       </item>
-       <item row="3" column="5">
-        <widget class="Line" name="line_24">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="labelDutyCycle_edit">
-         <property name="text">
-          <string>Duty cycle (%)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QLabel" name="labelMaxPull_edit">
-         <property name="text">
-          <string>Max. load in pull (N)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="1">
-        <widget class="Line" name="line_20">
+        <widget class="Line" name="line_2">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
        <item row="5" column="0">
-        <widget class="QLabel" name="labelMaxPush_edit">
+        <widget class="QLabel" name="labelMaxPush">
          <property name="text">
           <string>Max. load in push (N)</string>
          </property>
@@ -480,11 +260,299 @@
          </property>
         </widget>
        </item>
+       <item row="8" column="6">
+        <widget class="QLineEdit" name="channel"/>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLineEdit" name="powerRating"/>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLabel" name="labelChannel">
+         <property name="text">
+          <string>Channel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="Line" name="line">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="Line" name="line_11">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4" colspan="3">
+        <widget class="Line" name="line_9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
        <item row="5" column="2">
-        <widget class="QLineEdit" name="maxLoadPush_edit"/>
+        <widget class="QLineEdit" name="maxLoadPush"/>
+       </item>
+       <item row="10" column="0">
+        <spacer name="verticalSpaceraInsert">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>108</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="11" column="0" colspan="7">
+        <widget class="QPushButton" name="pushButtonInsert">
+         <property name="text">
+          <string>Insert</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLineEdit" name="accelarationRate"/>
+       </item>
+       <item row="7" column="4" colspan="3">
+        <widget class="Line" name="line_37">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="labelHallSensors">
+         <property name="text">
+          <string>Number off hall sensors</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="numberHallSensors"/>
+       </item>
+       <item row="7" column="1">
+        <widget class="Line" name="line_38">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="managerTab">
+     <attribute name="title">
+      <string>Manager</string>
+     </attribute>
+     <widget class="QComboBox" name="comboBoxManager">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>10</y>
+        <width>621</width>
+        <height>313</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayoutManager">
+       <item row="0" column="0" colspan="3">
+        <widget class="QLabel" name="labelSpecificationsManager">
+         <property name="text">
+          <string>Linear Acuator Specifications</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4" colspan="3">
+        <widget class="Line" name="line_40">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="numberHallSensorsManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="labelMaxPushManager">
+         <property name="text">
+          <string>Max. load in push (N)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="Line" name="line_17">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="Line" name="line_15">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelStrokeManager">
+         <property name="text">
+          <string>Stroke lenght (mm)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="strokeLenghtManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="labelMaxPullManager">
+         <property name="text">
+          <string>Max. load in pull (N)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLabel" name="labelAccelTimeManager">
+         <property name="text">
+          <string>Aceelaration time (ms)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="Line" name="line_13">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="Line" name="line_12">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="modelManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="labelHallSensorsManager">
+         <property name="text">
+          <string>Number off hall sensors</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="labelPowerRatingManager">
+         <property name="text">
+          <string>Power rating (V)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="QLineEdit" name="channelManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="maxLoadPullManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLineEdit" name="powerRatingManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="Line" name="line_41">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLabel" name="labelChannelManager">
+         <property name="text">
+          <string>Channel</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="Line" name="line_14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
        </item>
        <item row="2" column="4">
-        <widget class="QLabel" name="labelAccelRate_edit">
+        <widget class="QLabel" name="labelAccelRateManager">
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Accelaration rate (mm/s&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
@@ -493,46 +561,42 @@
          </property>
         </widget>
        </item>
-       <item row="10" column="0" colspan="7">
-        <widget class="QPushButton" name="pushButtonEdit">
+       <item row="0" column="4" colspan="3">
+        <widget class="QLabel" name="labelSotfStartStopManager">
          <property name="text">
-          <string>Edit</string>
+          <string>Soft start and stop configuration</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="labelModel_edit">
+       <item row="8" column="0">
+        <widget class="QLabel" name="labelMaxCurrentManager">
          <property name="text">
-          <string>Model</string>
+          <string>Max. current (A)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="2" column="5">
-        <widget class="Line" name="line_22">
+       <item row="3" column="1">
+        <widget class="Line" name="line_19">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
-       <item row="1" column="4" colspan="3">
-        <widget class="Line" name="line_21">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="5">
-        <widget class="Line" name="line_14">
+       <item row="2" column="5">
+        <widget class="Line" name="line_18">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
        <item row="4" column="3">
-        <spacer name="horizontalSpacer_edit">
+        <spacer name="horizontalSpacerManager">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -544,77 +608,127 @@
          </property>
         </spacer>
        </item>
-       <item row="4" column="1">
-        <widget class="Line" name="line_23">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
+       <item row="8" column="2">
+        <widget class="QLineEdit" name="maxCurrentManager">
+         <property name="enabled">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
-       <item row="7" column="1">
-        <widget class="Line" name="line_13">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="4">
-        <widget class="QLabel" name="labelPwmFrewq_edit">
+       <item row="6" column="4" colspan="3">
+        <widget class="QLabel" name="labelConnectionConfigurationManager">
          <property name="text">
-          <string>PWM Frequency (kHz)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="2">
-        <widget class="QLineEdit" name="maxLoadPull_edit"/>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="strokeLenght_edit"/>
-       </item>
-       <item row="0" column="4" colspan="3">
-        <widget class="QLabel" name="labelControlSystem_edit">
-         <property name="text">
-          <string>Control System Configuration</string>
+          <string>Connection configuration</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
          </property>
         </widget>
        </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="strokeLabel_edit">
+       <item row="2" column="6">
+        <widget class="QLineEdit" name="accelarationRateManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4" colspan="3">
+        <widget class="Line" name="line_22">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="Line" name="line_20">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="5">
+        <widget class="Line" name="line_39">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="dutyCycleManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="labelDutyCycleManager">
          <property name="text">
-          <string>Stroke lenght (mm)</string>
+          <string>Duty cycle (%)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
          </property>
         </widget>
        </item>
-       <item row="4" column="6">
-        <widget class="QLineEdit" name="pwmFrequency_edit"/>
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="maxLoadPushManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLineEdit" name="accelarationTimeManager">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="Line" name="line_21">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="labelModelManager">
+         <property name="text">
+          <string>Model</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="Line" name="line_16">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0" colspan="4">
+        <spacer name="verticalSpacerManager">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>108</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>
-     <widget class="QComboBox" name="chooseModelEdit">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>140</y>
-        <width>161</width>
-        <height>25</height>
-       </rect>
-      </property>
-     </widget>
     </widget>
-    <widget class="QWidget" name="statusTab">
+    <widget class="QWidget" name="statusBasicTab">
      <attribute name="title">
-      <string>Status</string>
+      <string>Status Basic</string>
      </attribute>
-     <widget class="QComboBox" name="chooseModelStatus">
+     <widget class="QComboBox" name="comboBoxStatusBasic">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -627,124 +741,16 @@
      <widget class="QWidget" name="gridLayoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>60</y>
-        <width>621</width>
+        <x>60</x>
+        <y>50</y>
+        <width>725</width>
         <height>271</height>
        </rect>
       </property>
       <property name="mouseTracking">
        <bool>false</bool>
       </property>
-      <layout class="QGridLayout" name="gridLayout_3">
-       <item row="0" column="0" colspan="3">
-        <widget class="QLabel" name="labelLinearActautor">
-         <property name="text">
-          <string>Linear Acuator </string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="3">
-        <spacer name="horizontalSpacer_status">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="7" column="1">
-        <widget class="Line" name="line_32">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="5">
-        <widget class="Line" name="line_34">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="5">
-        <widget class="Line" name="line_26">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="10" column="0" colspan="7">
-        <widget class="QPushButton" name="pushButtonInsert_update">
-         <property name="text">
-          <string>UPDATE</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="labelLinearSpeed">
-         <property name="text">
-          <string>Linear speed (mm/s)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="3">
-        <widget class="Line" name="line_30">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="0">
-        <widget class="QLabel" name="labelPosition">
-         <property name="text">
-          <string>Position (mm)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="2">
-        <widget class="QLineEdit" name="linearSpeed">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="labelRotorSpeed">
-         <property name="text">
-          <string>Rotor speed (rad/s)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="labelStatus">
-         <property name="text">
-          <string>Status</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
+      <layout class="QGridLayout" name="gridLayoutStatusBasic">
        <item row="8" column="1">
         <widget class="Line" name="line_29">
          <property name="orientation">
@@ -752,63 +758,43 @@
          </property>
         </widget>
        </item>
-       <item row="5" column="4">
-        <widget class="QLabel" name="labelExample3">
+       <item row="0" column="4" colspan="3">
+        <widget class="QLabel" name="labelLinearActuatorBasic">
          <property name="text">
-          <string>Example 3</string>
+          <string>Linear actuator</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="statusDriveBasic">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLineEdit" name="motorCurrentBasic">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLabel" name="labelStatusActuatorBasic">
+         <property name="text">
+          <string>Status</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="6">
-        <widget class="QLineEdit" name="example3">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QLineEdit" name="status">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="6">
-        <widget class="QLineEdit" name="example1">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QLabel" name="labelPulseRate">
-         <property name="text">
-          <string>Pulse rate (#imp/mm)</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="2">
-        <widget class="QLineEdit" name="position">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
          </property>
         </widget>
        </item>
@@ -819,6 +805,33 @@
          </property>
         </widget>
        </item>
+       <item row="7" column="1">
+        <widget class="Line" name="line_27">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <widget class="QLabel" name="labelRotorSpeed">
+         <property name="text">
+          <string>Drive</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="labelStatusDriveBasic">
+         <property name="text">
+          <string>Status</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
        <item row="1" column="4" colspan="3">
         <widget class="Line" name="line_33">
          <property name="orientation">
@@ -826,8 +839,35 @@
          </property>
         </widget>
        </item>
-       <item row="9" column="0">
-        <spacer name="verticalSpacer_status">
+       <item row="3" column="0">
+        <widget class="QLabel" name="labelStatusConnectionBasic">
+         <property name="text">
+          <string>Status</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="3">
+        <widget class="Line" name="line_42">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLabel" name="labelMotorCurrentBasi">
+         <property name="text">
+          <string>Motor current (A)</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="3">
+        <spacer name="verticalSpacerLeft">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -839,43 +879,6 @@
          </property>
         </spacer>
        </item>
-       <item row="0" column="4" colspan="3">
-        <widget class="QLabel" name="labelDrive">
-         <property name="text">
-          <string>Drive</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="6">
-        <widget class="QLineEdit" name="example2">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="1">
-        <widget class="Line" name="line_27">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="4">
-        <widget class="QLabel" name="labelExample2">
-         <property name="text">
-          <string>Example 2</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
-         </property>
-        </widget>
-       </item>
        <item row="4" column="5">
         <widget class="Line" name="line_36">
          <property name="orientation">
@@ -883,49 +886,114 @@
          </property>
         </widget>
        </item>
-       <item row="7" column="2">
-        <widget class="QLineEdit" name="pulseRate">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
+       <item row="9" column="4" colspan="3">
+        <layout class="QHBoxLayout" name="horizontalLayoutCommands">
+         <item>
+          <widget class="QPushButton" name="safeResetBasic">
+           <property name="text">
+            <string>Refracted</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="extendedBasic">
+           <property name="text">
+            <string>Extended</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="stopBasic">
+           <property name="text">
+            <string>Stop</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>Safe reset</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="Line" name="line_30">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
          </property>
         </widget>
        </item>
-       <item row="5" column="2">
-        <widget class="QLineEdit" name="rotorSpeed">
-         <property name="enabled">
-          <bool>false</bool>
-         </property>
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="Line" name="line_28">
+       <item row="3" column="5">
+        <widget class="Line" name="line_34">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
         </widget>
        </item>
-       <item row="5" column="1">
-        <widget class="Line" name="line_35">
+       <item row="5" column="4" rowspan="4" colspan="3">
+        <spacer name="verticalSpacerBasicRight">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
-        </widget>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>108</height>
+          </size>
+         </property>
+        </spacer>
        </item>
-       <item row="3" column="4">
-        <widget class="QLabel" name="labelExample1">
+       <item row="10" column="0" colspan="7">
+        <widget class="QPushButton" name="pushButtonUpdateStatusBasic">
          <property name="text">
-          <string>Eample 1</string>
+          <string>Update Status</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="3">
+        <widget class="QLabel" name="labelConnetionBasic">
+         <property name="text">
+          <string>Connection</string>
          </property>
          <property name="alignment">
-          <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+          <set>Qt::AlignCenter</set>
          </property>
         </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="statusConnectionBasic">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLineEdit" name="statusActuatorBasic">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="4">
+        <spacer name="horizontalSpacerStatusBasic">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
        </item>
       </layout>
      </widget>

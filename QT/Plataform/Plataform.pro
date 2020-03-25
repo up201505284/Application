@@ -16,18 +16,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    ../../VSCode/Connection.cpp \
     ../../VSCode/ControlSystem.cpp \
     ../../VSCode/LinearActuator.cpp \
     ../../VSCode/LinearActuatorSpecifications.cpp \
-    ../../VSCode/LinearActuatorStatus.cpp \
+    ../../VSCode/LinearActuatorStatusAdvanced.cpp \
+    ../../VSCode/LinearActuatorStatusBasic.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    ../../VSCode/Connection.h \
     ../../VSCode/ControlSystem.h \
     ../../VSCode/LinearActuator.h \
     ../../VSCode/LinearActuatorSpecifications.h \
-    ../../VSCode/LinearActuatorStatus.h \
+    ../../VSCode/LinearActuatorStatusAdvanced.h \
+    ../../VSCode/LinearActuatorStatusBasic.h \
     mainwindow.h
 
 FORMS += \
