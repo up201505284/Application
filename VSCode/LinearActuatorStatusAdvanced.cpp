@@ -5,7 +5,7 @@ using namespace std;
 
 LinearActuatorStatusAdvanced::LinearActuatorStatusAdvanced() {
     LinearActuatorStatusAdvanced::setMotorCurrent(0);
-    LinearActuatorStatusAdvanced::setState("In initial setup");
+    LinearActuatorStatusAdvanced::setState("In inital setup");
     LinearActuatorStatusAdvanced::setLinearSpeed(0);
     LinearActuatorStatusAdvanced::setRotorSpeed(0);
     LinearActuatorStatusAdvanced::setPosition(0);

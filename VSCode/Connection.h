@@ -20,7 +20,7 @@ public:
 
     // "Set" Methods
     void setChannel (int    _channel            );
-    void setStatus  (string _accelarationTime   );
+    void setStatus  (string _setStatus   );
 
      // "Get" Methods
     int     getChannel  (void);

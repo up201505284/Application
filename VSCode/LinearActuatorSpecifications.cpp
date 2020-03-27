@@ -18,6 +18,7 @@ LinearActuatorSpecifications::LinearActuatorSpecifications(
         setDutyCycle        (0                  );
         setMaxLoadPull      (0                  );
         setMaxLoadPush      (0                  );
+        setPulseRate        (0                  );
 }
 
 
@@ -60,7 +61,7 @@ void LinearActuatorSpecifications::setPowerRating(int  _powerRating) {
 }
 
 void LinearActuatorSpecifications::setPulseRate(int  _pulseRate) {
-    if (_pulseRate > 0)    
+    if (_pulseRate >= 0)
         pulseRate = _pulseRate;
     else // Error
         printf("INVALID VALUE \n");
