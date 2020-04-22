@@ -2,8 +2,6 @@
 #include "C:\Users\riban\OneDrive\Ambiente de Trabalho\IAR\lib\ControlUnit.h"
 #include <intrinsics.h>
 
-#define OVERFLOW16BITS    65535‬
-
 // Global count of hall sensors pulses
 uint16_t count_pulse_s1         = 0x0000;
 uint16_t count_pulse_s2         = 0x0000;
@@ -90,6 +88,7 @@ int main( void ){
     INTERRUPTS_ENABLE           = 0; //  Clear flag INTERRUPTS_ENABLE
     TX_PULSE_RATE               = 0; //  Clear flag TX_PULSE_RATE
     RX_STROKE_LENGHT            = 0; //  Clear flag RX_STROKE_LENGHT
+    TX_POSITION                 = 0; //  Clear flag TX_POSITION
     
     //  Enable interrupts
     __enable_interrupt();
@@ -327,8 +326,7 @@ void interruptsSensors (uint8_t state) {
     setup_interrupts_sensors(state);
     
     if (state == ENABLE)  
-        INTERRUPTS_ENABLE = 0x01;  
-    
+        INTERRUPTS_ENABLE = 0x01;   //  Set flag INTERRUPTS_ENABLE 
     else
         INTERRUPTS_ENABLE = 0x00;
     

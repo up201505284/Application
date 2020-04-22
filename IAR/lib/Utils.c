@@ -35,95 +35,42 @@ void init_clock(void) {
 }
 
 void init_ports(void) { 
-    //  Initialise outputs 
+    //  Initialise digital outputs 
         //  INA     -> PD5
         //  INB     -> PD6
         //  SEL0    -> PE0
-        //  PWM     -> PC1 -> TIM1_CH1
+        //  PWM     -> PD3 (TIM2_CH2)
 
     //  Pin is set to output mode.
-    PC_DDR_DDR1 = 1; 
+    PD_DDR_DDR3 = 1; 
     PD_DDR_DDR5 = 1; 
     PD_DDR_DDR6 = 1;
     PE_DDR_DDR0 = 1;
     //  Pin is set to Push-Pull mode.
-    PC_CR1_C11  = 1;
+    PD_CR1_C13  = 1;
     PD_CR1_C15  = 1;
     PD_CR1_C16  = 1;
     PE_CR1_C10  = 1;
     // Pin can run up to 10MHz.
-    PC_CR2_C21  = 1;
+    PD_CR2_C23  = 1;
     PD_CR2_C25  = 1;
     PD_CR2_C26  = 1;
     PE_CR2_C20  = 1;
 
-    //  Initialise inputs 
-        //  HALL_S1    -> PG0  
-        //  HALL_S1    -> PC2 
+    //  Initialise digital inputs
+        //  HALL_S1    -> PC1 
+        //  HALL_S2    -> PC2 
     //  Pin is set to input mode.
     PC_DDR_DDR2 = 0;
     PG_DDR_DDR0 = 0;
     //  Pin is set to input with pull-up.
     PC_CR1_C12 = 1;
     PG_CR1_C10 = 1;
-    //  Disable external interrupt. 
+    //  Disable external interrupt.
     PC_CR2_C22 = 0;
     PG_CR2_C20 = 0;
 
-    return;
-}
-
-void setup_adc (void) {
-    //  ADC configuration
-        //  Set prescaler division factor to 2.
-        //  Single conversion mode.
-    ADC_CR1 = 0x00;
-        //  Disable external trigger.
-        //  Set data alignment to left alignment.
-        //  Disable scan mode.
-    ADC_CR2 = 0x00;
-        //  Disable data buffer.
-    ADC_CR3 = 0x00;
-        //  Select input channel 5 to be converted.
-    ADC_CSR_CH = 5;  
-
-    return;
-}
-
-void setup_pwm(uint8_t duty_cycle) {
-  //  uint16_t TIMER1_ARR   = 800;
-    //  Evaluate the limits for the duty cycle (0%-100%).
-  //  if (duty_cycle > 100)
-    //    return; 
-    //  Set duty-cycle. 
-    uint16_t timer1_ccr1 = 800*(duty_cycle/100)-1;
-
-    //  Set prescaler to 1.
-    TIM1_PSCRH = 0x00;
-    TIM1_PSCRL = 0x00;
-    
-    //  Fill 16 bit timer2_arr to two 8 bit registers.
-    TIM1_ARRH = (800 - 1) >> 8;
-    TIM1_ARRL = (800 - 1) & 0x00FF;
-
-    //  Fill 16 bit timer1_ccr1 to two 8 bit registers.
-    TIM1_CCR1H = timer1_ccr1 >> 8;
-    TIM1_CCR1L = timer1_ccr1 & 0x00FF;
-
-    //  Output is enable.
-    TIM1_CCMR1_OC1PE = 1;
-    //  Active is defined as low.
-    TIM1_CCER1_CC1P = 1;
-    //  Enable PWM mode 1 (0b110 = 6).
-    TIM1_CCMR1_OC1M = 6;
-    // Enable counter.
-    TIM2_CR1_CEN = 1;
-
-    return;
-}
-
-void setup_spi(void) {
-    //  SPI port init.
+    //  SPI port init
         //  MISO -> PC7 is push-pull out
     PC_DDR_DDR7 = 1; 
     PC_CR1_C17  = 1;
@@ -140,6 +87,89 @@ void setup_spi(void) {
     PC_CR2_C26  = 0;
     PC_CR2_C25  = 0;
     PD_CR2_C22  = 0;
+
+    //  ADC pin init
+        //  CS -> PB5 is a floating input
+    PB_DDR_DDR5 = 0;
+    PB_CR1_C15  = 0;
+    PB_CR2_C25  = 0;
+
+    return;
+}
+
+void setup_adc (void) {
+    //  Clear EOC bit
+    //  Clear AWD bit
+    //  Disable interrupts
+    ADC_CSR = 0x00;
+    //  Set prescaler division factor to 2.
+    //  Single conversion mode.
+    ADC_CR1 = 0x00;
+    //  Disable external trigger.
+    //  Set data alignment to left alignment.
+    //  Disable scan mode.
+    ADC_CR2 = 0x00;
+    //  Disable data buffer.
+    ADC_CR3 = 0x00;
+    //  Select input channel 5 to be converted.
+    ADC_CSR_CH = 5;  
+
+    return;
+}
+
+void setup_pwm(uint8_t duty_cycle) {
+
+    uint16_t timer2_arr = TIM2_ARR_10KHz - 1;
+    uint16_t timer2_ccr2 = timer2_arr*(duty_cycle/100)-1;
+    
+    //  Reset Timer 2 to a known state.
+    TIM2_CR1    = 0x00;               
+    TIM2_IER    = 0x00;
+    TIM2_SR2    = 0x00;
+    TIM2_CCER1  = 0x00;
+    TIM2_CCER2  = 0x00;
+    TIM2_CCER1  = 0x00;
+    TIM2_CCER2  = 0x00;
+    TIM2_CCMR1  = 0x00;
+    TIM2_CCMR2  = 0x00;
+    TIM2_CCMR3  = 0x00;
+    TIM2_CNTRH  = 0x00;
+    TIM2_CNTRL  = 0x00;
+    TIM2_PSCR   = 0x00;
+    TIM2_ARRH   = 0x00;
+    TIM2_ARRL   = 0x00;
+    TIM2_CCR1H  = 0x00;
+    TIM2_CCR1L  = 0x00;
+    TIM2_CCR2H  = 0x00;
+    TIM2_CCR2L  = 0x00;
+    TIM2_CCR3H  = 0x00;
+    TIM2_CCR3L  = 0x00;
+    TIM2_SR1    = 0x00;
+
+    // Enable counter.
+    TIM2_CR1_CEN = 1;
+    //  Enable PWM mode 1 (0b110 = 6) in channel 2
+    TIM2_CCMR2_OC1M = 6;
+    //  Output is enable.
+    TIM2_CCMR2_OC1PE = 1;
+    //  Active is defined as low.
+    TIM2_CCER1_CC2P = 1;
+    //  Set prescaler to 1.
+    TIM2_PSCR = 0x00;
+    //  Fill 16 bit timer2_arr to two 8 bit registers.
+    TIM2_ARRH = (timer2_arr)  >> 8;
+    TIM2_ARRL = (timer2_arr) & 0x00FF;
+
+    //  Fill 16 bit timer2_ccr1 to two 8 bit registers.
+    TIM2_CCR2H = timer2_ccr2 >> 8;
+    TIM2_CCR2L = timer2_ccr2 & 0x00FF;
+
+
+
+    return;
+}
+
+void setup_spi(void) {
 
     // SPI registers reset. 
     SPI_CR1 = 0x00;
@@ -197,15 +227,17 @@ uint16_t read_cs (void) {
     uint16_t high = 0x0000;
     
     //  Start conversion.
-    ADC_CR1 |= ADC_CR1_ADON;
+    ADC_CR1_ADON = 1;
     //  Wait for end of conversion.
     while(ADC_CSR_EOC == 0);
     //  Clear flag "End of conversion".
-    ADC_CSR &= ~ADC_CSR_EOC;
+    ADC_CSR_EOC = ~ADC_CSR_EOC; 
     //  Left aligned
-    low  = (uint16_t) (ADC_DRH << 8);
-    high = (uint16_t) ADC_DRL;
-    
+    high    = (uint16_t) (ADC_DRH << 8);
+    low     = (uint16_t) ADC_DRL;
+    //  Disable ADC conversion.
+    ADC_CR1_ADON = 0;
+
     return  low | high;
 }
 

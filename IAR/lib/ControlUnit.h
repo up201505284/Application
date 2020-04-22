@@ -1,18 +1,21 @@
 
+#define TIM2_ARR_10KHz          1600
+#define TIM2_ARR_20KHz          800
+
 // Outputs
     //  INA     -> PD5
     //  INB     -> PD6
     //  SEL0    -> PE0     
-    //  PWM     -> PC1       
+    //  PWM     -> PD3    
+#define PWM                     PD_ODR_ODR3    
 #define INA                     PD_ODR_ODR5  
 #define INB                     PD_ODR_ODR6  
 #define SEL0                    PE_ODR_ODR0  
-#define PWM                     PC_ODR_ODR1  
 
 //  Inputs
-    //  HALL_S1   -> PG0  
+    //  HALL_S1   -> PGC1 
     //  HALL_S2   -> PC2
-#define HALL_S1                 PG_IDR_IDR0
+#define HALL_S1                 PC_IDR_IDR1
 #define HALL_S2                 PC_IDR_IDR2
 
 //  State of external interrupts
