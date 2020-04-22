@@ -7,11 +7,6 @@
 #include <stdio.h>
 
 
-//  Set PWM frequency to 20kHz.
-    //  Fcpu = 16MHz
-    //  Fcpu/Fpwm = TIMER1_ARR 
-#define TIMER1_ARR   = 800;
-
 void        init_clock              (void               );
 void        init_ports              (void               );
 void        setup_adc               (void               );
