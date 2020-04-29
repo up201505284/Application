@@ -601,20 +601,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PA_ODR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PA_ODR_bit",
-        "location": {
-          "column": "1",
-          "line": "93",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PA_ODR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_93_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PA_ODR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -625,6 +611,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PA_ODR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_93_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PA_ODR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PA_ODR_bit",
+        "location": {
+          "column": "1",
+          "line": "93",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PA_ODR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_93_1"
       }
@@ -787,20 +787,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PA_IDR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PA_IDR",
-        "location": {
-          "column": "1",
-          "line": "109",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PA_IDR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_109_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PA_IDR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -811,6 +797,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PA_IDR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_109_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PA_IDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PA_IDR",
+        "location": {
+          "column": "1",
+          "line": "109",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PA_IDR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_109_1"
       }
@@ -1345,20 +1345,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PA_CR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PA_CR2_bit",
-        "location": {
-          "column": "1",
-          "line": "157",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PA_CR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_157_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PA_CR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -1369,6 +1355,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PA_CR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_157_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PA_CR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PA_CR2_bit",
+        "location": {
+          "column": "1",
+          "line": "157",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PA_CR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_157_1"
       }
@@ -2651,20 +2651,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PB_ODR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PB_ODR",
-        "location": {
-          "column": "1",
-          "line": "278",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PB_ODR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_278_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PB_ODR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -2675,6 +2661,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PB_ODR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_278_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PB_ODR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PB_ODR",
+        "location": {
+          "column": "1",
+          "line": "278",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PB_ODR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_278_1"
       }
@@ -2837,20 +2837,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PB_IDR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PB_IDR_bit",
-        "location": {
-          "column": "1",
-          "line": "294",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PB_IDR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_294_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PB_IDR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -2861,6 +2847,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PB_IDR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_294_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PB_IDR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PB_IDR_bit",
+        "location": {
+          "column": "1",
+          "line": "294",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PB_IDR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_294_1"
       }
@@ -3395,20 +3395,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PB_CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PB_CR2",
-        "location": {
-          "column": "1",
-          "line": "342",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PB_CR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_342_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PB_CR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -3419,6 +3405,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PB_CR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_342_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PB_CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PB_CR2",
+        "location": {
+          "column": "1",
+          "line": "342",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PB_CR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_342_1"
       }
@@ -5073,20 +5073,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PC_DDR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PC_DDR",
-        "location": {
-          "column": "1",
-          "line": "495",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PC_DDR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_495_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PC_DDR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -5097,6 +5083,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PC_DDR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_495_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PC_DDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PC_DDR",
+        "location": {
+          "column": "1",
+          "line": "495",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PC_DDR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_495_1"
       }
@@ -5259,20 +5259,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PC_CR1_bit",
-        "location": {
-          "column": "1",
-          "line": "511",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PC_CR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_511_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -5283,6 +5269,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PC_CR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_511_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PC_CR1_bit",
+        "location": {
+          "column": "1",
+          "line": "511",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PC_CR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_511_1"
       }
@@ -5445,20 +5445,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PC_CR2",
-        "location": {
-          "column": "1",
-          "line": "527",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PC_CR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_527_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -5469,6 +5455,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PC_CR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_527_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PC_CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PC_CR2",
+        "location": {
+          "column": "1",
+          "line": "527",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PC_CR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_527_1"
       }
@@ -7309,20 +7309,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PD_CR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PD_CR1_bit",
-        "location": {
-          "column": "1",
-          "line": "696",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PD_CR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_696_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PD_CR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -7333,6 +7319,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PD_CR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_696_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PD_CR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PD_CR1_bit",
+        "location": {
+          "column": "1",
+          "line": "696",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PD_CR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_696_1"
       }
@@ -9173,20 +9173,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PE_DDR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PE_DDR_bit",
-        "location": {
-          "column": "1",
-          "line": "865",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PE_DDR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_865_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PE_DDR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -9197,6 +9183,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PE_DDR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_865_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PE_DDR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PE_DDR_bit",
+        "location": {
+          "column": "1",
+          "line": "865",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PE_DDR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_865_1"
       }
@@ -9359,20 +9359,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PE_CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PE_CR1",
-        "location": {
-          "column": "1",
-          "line": "881",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PE_CR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_881_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PE_CR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -9383,6 +9369,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PE_CR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_881_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PE_CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PE_CR1",
+        "location": {
+          "column": "1",
+          "line": "881",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PE_CR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_881_1"
       }
@@ -10851,20 +10851,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PF_ODR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PF_ODR_bit",
-        "location": {
-          "column": "1",
-          "line": "1018",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PF_ODR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1018_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PF_ODR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -10875,6 +10861,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PF_ODR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1018_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PF_ODR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PF_ODR_bit",
+        "location": {
+          "column": "1",
+          "line": "1018",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PF_ODR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1018_1"
       }
@@ -11037,20 +11037,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PF_IDR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PF_IDR",
-        "location": {
-          "column": "1",
-          "line": "1034",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PF_IDR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1034_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PF_IDR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -11061,6 +11047,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PF_IDR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1034_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PF_IDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PF_IDR",
+        "location": {
+          "column": "1",
+          "line": "1034",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PF_IDR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1034_1"
       }
@@ -11595,20 +11595,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PF_CR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PF_CR2_bit",
-        "location": {
-          "column": "1",
-          "line": "1082",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PF_CR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1082_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PF_CR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -11619,6 +11605,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PF_CR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1082_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PF_CR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PF_CR2_bit",
+        "location": {
+          "column": "1",
+          "line": "1082",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PF_CR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1082_1"
       }
@@ -12901,20 +12901,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PG_ODR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PG_ODR",
-        "location": {
-          "column": "1",
-          "line": "1203",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PG_ODR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1203_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PG_ODR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -12925,6 +12911,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PG_ODR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1203_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PG_ODR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PG_ODR",
+        "location": {
+          "column": "1",
+          "line": "1203",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PG_ODR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1203_1"
       }
@@ -13087,20 +13087,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PG_IDR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PG_IDR_bit",
-        "location": {
-          "column": "1",
-          "line": "1219",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PG_IDR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1219_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PG_IDR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -13111,6 +13097,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PG_IDR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1219_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PG_IDR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PG_IDR_bit",
+        "location": {
+          "column": "1",
+          "line": "1219",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PG_IDR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1219_1"
       }
@@ -13645,20 +13645,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PG_CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PG_CR2",
-        "location": {
-          "column": "1",
-          "line": "1267",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PG_CR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1267_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PG_CR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -13669,6 +13655,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PG_CR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1267_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PG_CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PG_CR2",
+        "location": {
+          "column": "1",
+          "line": "1267",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PG_CR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1267_1"
       }
@@ -14951,20 +14951,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PH_ODR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PH_ODR",
-        "location": {
-          "column": "1",
-          "line": "1388",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PH_ODR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1388_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PH_ODR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -14975,6 +14961,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PH_ODR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1388_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PH_ODR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PH_ODR",
+        "location": {
+          "column": "1",
+          "line": "1388",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PH_ODR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1388_1"
       }
@@ -15137,20 +15137,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PH_IDR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PH_IDR_bit",
-        "location": {
-          "column": "1",
-          "line": "1404",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PH_IDR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1404_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PH_IDR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -15161,6 +15147,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PH_IDR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1404_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PH_IDR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PH_IDR_bit",
+        "location": {
+          "column": "1",
+          "line": "1404",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PH_IDR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1404_1"
       }
@@ -15695,20 +15695,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PH_CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PH_CR2",
-        "location": {
-          "column": "1",
-          "line": "1452",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PH_CR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1452_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PH_CR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -15719,6 +15705,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PH_CR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1452_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PH_CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PH_CR2",
+        "location": {
+          "column": "1",
+          "line": "1452",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PH_CR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1452_1"
       }
@@ -17001,20 +17001,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PI_ODR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PI_ODR_bit",
-        "location": {
-          "column": "1",
-          "line": "1573",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PI_ODR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1573_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PI_ODR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -17025,6 +17011,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PI_ODR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1573_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PI_ODR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PI_ODR_bit",
+        "location": {
+          "column": "1",
+          "line": "1573",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PI_ODR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1573_1"
       }
@@ -17187,20 +17187,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PI_IDR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PI_IDR",
-        "location": {
-          "column": "1",
-          "line": "1589",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PI_IDR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1589_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PI_IDR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -17211,6 +17197,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PI_IDR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1589_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PI_IDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PI_IDR",
+        "location": {
+          "column": "1",
+          "line": "1589",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PI_IDR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1589_1"
       }
@@ -17745,20 +17745,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@PI_CR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "PI_CR2_bit",
-        "location": {
-          "column": "1",
-          "line": "1637",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "PI_CR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1637_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@PI_CR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -17769,6 +17755,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "PI_CR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1637_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@PI_CR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PI_CR2_bit",
+        "location": {
+          "column": "1",
+          "line": "1637",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "PI_CR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1637_1"
       }
@@ -18995,20 +18995,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_CR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "FLASH_CR1_bit",
-        "location": {
-          "column": "1",
-          "line": "1754",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "FLASH_CR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1754_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_CR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -19019,6 +19005,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "FLASH_CR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1754_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_CR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "FLASH_CR1_bit",
+        "location": {
+          "column": "1",
+          "line": "1754",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "FLASH_CR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1754_1"
       }
@@ -19283,20 +19283,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NCR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "FLASH_NCR2_bit",
-        "location": {
-          "column": "1",
-          "line": "1782",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "FLASH_NCR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1782_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NCR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -19307,6 +19293,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "FLASH_NCR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1782_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NCR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "FLASH_NCR2_bit",
+        "location": {
+          "column": "1",
+          "line": "1782",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "FLASH_NCR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1782_1"
       }
@@ -19441,20 +19441,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_FPR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "FLASH_FPR",
-        "location": {
-          "column": "1",
-          "line": "1796",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "FLASH_FPR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1796_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_FPR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -19465,6 +19451,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "FLASH_FPR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1796_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_FPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "FLASH_FPR",
+        "location": {
+          "column": "1",
+          "line": "1796",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "FLASH_FPR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1796_1"
       }
@@ -19599,20 +19599,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NFPR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "FLASH_NFPR_bit",
-        "location": {
-          "column": "1",
-          "line": "1810",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "FLASH_NFPR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1810_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NFPR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -19623,6 +19609,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "FLASH_NFPR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1810_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@FLASH_NFPR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "FLASH_NFPR_bit",
+        "location": {
+          "column": "1",
+          "line": "1810",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "FLASH_NFPR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1810_1"
       }
@@ -21001,20 +21001,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ITC_SPR1_bit",
-        "location": {
-          "column": "1",
-          "line": "1951",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "ITC_SPR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1951_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -21025,6 +21011,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "ITC_SPR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1951_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ITC_SPR1_bit",
+        "location": {
+          "column": "1",
+          "line": "1951",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "ITC_SPR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1951_1"
       }
@@ -21391,20 +21391,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR4",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ITC_SPR4",
-        "location": {
-          "column": "1",
-          "line": "1987",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "ITC_SPR4",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_1987_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR4_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -21415,6 +21401,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "ITC_SPR4_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_1987_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@ITC_SPR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ITC_SPR4",
+        "location": {
+          "column": "1",
+          "line": "1987",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "ITC_SPR4",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_1987_1"
       }
@@ -23035,20 +23035,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@RST_SR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "RST_SR_bit",
-        "location": {
-          "column": "1",
-          "line": "2153",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "RST_SR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2153_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@RST_SR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -23059,6 +23045,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "RST_SR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2153_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@RST_SR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "RST_SR_bit",
+        "location": {
+          "column": "1",
+          "line": "2153",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "RST_SR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2153_1"
       }
@@ -23333,20 +23333,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ICKR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CLK_ICKR",
-        "location": {
-          "column": "1",
-          "line": "2194",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CLK_ICKR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2194_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ICKR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -23357,6 +23343,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CLK_ICKR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2194_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ICKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CLK_ICKR",
+        "location": {
+          "column": "1",
+          "line": "2194",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CLK_ICKR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2194_1"
       }
@@ -23435,20 +23435,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ECKR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CLK_ECKR_bit",
-        "location": {
-          "column": "1",
-          "line": "2204",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CLK_ECKR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2204_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ECKR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -23459,6 +23445,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CLK_ECKR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2204_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_ECKR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CLK_ECKR_bit",
+        "location": {
+          "column": "1",
+          "line": "2204",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CLK_ECKR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2204_1"
       }
@@ -23695,20 +23695,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_CKDIVR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CLK_CKDIVR_bit",
-        "location": {
-          "column": "1",
-          "line": "2230",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CLK_CKDIVR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2230_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CLK_CKDIVR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -23719,6 +23705,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CLK_CKDIVR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2230_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CLK_CKDIVR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CLK_CKDIVR_bit",
+        "location": {
+          "column": "1",
+          "line": "2230",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CLK_CKDIVR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2230_1"
       }
@@ -25985,20 +25985,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@AWU_CSR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "AWU_CSR1",
-        "location": {
-          "column": "1",
-          "line": "2492",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "AWU_CSR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2492_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@AWU_CSR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -26009,6 +25995,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "AWU_CSR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2492_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@AWU_CSR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AWU_CSR1",
+        "location": {
+          "column": "1",
+          "line": "2492",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "AWU_CSR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2492_1"
       }
@@ -26417,20 +26417,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@BEEP_CSR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "BEEP_CSR",
-        "location": {
-          "column": "1",
-          "line": "2552",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "BEEP_CSR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2552_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@BEEP_CSR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -26441,6 +26427,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "BEEP_CSR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2552_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@BEEP_CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BEEP_CSR",
+        "location": {
+          "column": "1",
+          "line": "2552",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "BEEP_CSR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2552_1"
       }
@@ -28311,20 +28311,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARL_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "I2C_OARL_bit",
-        "location": {
-          "column": "1",
-          "line": "2758",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "I2C_OARL_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2758_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARL",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -28335,6 +28321,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "I2C_OARL",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2758_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARL_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "I2C_OARL_bit",
+        "location": {
+          "column": "1",
+          "line": "2758",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "I2C_OARL_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2758_1"
       }
@@ -28427,20 +28427,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARH_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "I2C_OARH_bit",
-        "location": {
-          "column": "1",
-          "line": "2771",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "I2C_OARH_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2771_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARH",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -28451,6 +28437,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "I2C_OARH",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2771_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_OARH_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "I2C_OARH_bit",
+        "location": {
+          "column": "1",
+          "line": "2771",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "I2C_OARH_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2771_1"
       }
@@ -28613,20 +28613,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_SR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "I2C_SR1",
-        "location": {
-          "column": "1",
-          "line": "2789",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "I2C_SR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_2789_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@I2C_SR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -28637,6 +28623,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "I2C_SR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_2789_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@I2C_SR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "I2C_SR1",
+        "location": {
+          "column": "1",
+          "line": "2789",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "I2C_SR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_2789_1"
       }
@@ -30685,20 +30685,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART1_CR1",
-        "location": {
-          "column": "1",
-          "line": "3001",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART1_CR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3001_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -30709,6 +30695,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART1_CR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3001_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART1_CR1",
+        "location": {
+          "column": "1",
+          "line": "3001",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART1_CR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3001_1"
       }
@@ -30871,20 +30871,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART1_CR2_bit",
-        "location": {
-          "column": "1",
-          "line": "3017",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART1_CR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3017_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -30895,6 +30881,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART1_CR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3017_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART1_CR2_bit",
+        "location": {
+          "column": "1",
+          "line": "3017",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART1_CR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3017_1"
       }
@@ -31029,20 +31029,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR3",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART1_CR3",
-        "location": {
-          "column": "1",
-          "line": "3032",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART1_CR3",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3032_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR3_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -31053,6 +31039,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART1_CR3_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3032_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART1_CR3",
+        "location": {
+          "column": "1",
+          "line": "3032",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART1_CR3",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3032_1"
       }
@@ -31159,20 +31159,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR4_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART1_CR4_bit",
-        "location": {
-          "column": "1",
-          "line": "3044",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART1_CR4_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3044_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR4",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -31183,6 +31169,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART1_CR4",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3044_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR4_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART1_CR4_bit",
+        "location": {
+          "column": "1",
+          "line": "3044",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART1_CR4_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3044_1"
       }
@@ -31303,20 +31303,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR5_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART1_CR5_bit",
-        "location": {
-          "column": "1",
-          "line": "3058",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART1_CR5_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3058_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR5",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -31327,6 +31313,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART1_CR5",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3058_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART1_CR5_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART1_CR5_bit",
+        "location": {
+          "column": "1",
+          "line": "3058",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART1_CR5_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3058_1"
       }
@@ -32609,20 +32609,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_SR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART3_SR_bit",
-        "location": {
-          "column": "1",
-          "line": "3183",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART3_SR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3183_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART3_SR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -32633,6 +32619,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART3_SR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3183_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_SR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART3_SR_bit",
+        "location": {
+          "column": "1",
+          "line": "3183",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART3_SR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3183_1"
       }
@@ -32837,20 +32837,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART3_CR1_bit",
-        "location": {
-          "column": "1",
-          "line": "3205",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART3_CR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3205_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -32861,6 +32847,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART3_CR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3205_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART3_CR1_bit",
+        "location": {
+          "column": "1",
+          "line": "3205",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART3_CR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3205_1"
       }
@@ -33023,20 +33023,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART3_CR2",
-        "location": {
-          "column": "1",
-          "line": "3221",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART3_CR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3221_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -33047,6 +33033,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART3_CR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3221_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART3_CR2",
+        "location": {
+          "column": "1",
+          "line": "3221",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART3_CR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3221_1"
       }
@@ -33255,20 +33255,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR4",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART3_CR4",
-        "location": {
-          "column": "1",
-          "line": "3244",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART3_CR4",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3244_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR4_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -33279,6 +33265,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART3_CR4_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3244_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR4",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART3_CR4",
+        "location": {
+          "column": "1",
+          "line": "3244",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART3_CR4",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3244_1"
       }
@@ -33413,20 +33413,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR6_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "UART3_CR6_bit",
-        "location": {
-          "column": "1",
-          "line": "3260",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "UART3_CR6_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3260_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR6",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -33437,6 +33423,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "UART3_CR6",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3260_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@UART3_CR6_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "UART3_CR6_bit",
+        "location": {
+          "column": "1",
+          "line": "3260",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "UART3_CR6_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3260_1"
       }
@@ -35141,20 +35141,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_IER",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM1_IER",
-        "location": {
-          "column": "1",
-          "line": "3427",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM1_IER",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3427_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_IER_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -35165,6 +35151,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM1_IER_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3427_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_IER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM1_IER",
+        "location": {
+          "column": "1",
+          "line": "3427",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM1_IER",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3427_1"
       }
@@ -35327,20 +35327,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_SR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM1_SR1_bit",
-        "location": {
-          "column": "1",
-          "line": "3443",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM1_SR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3443_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_SR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -35351,6 +35337,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM1_SR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3443_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_SR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM1_SR1_bit",
+        "location": {
+          "column": "1",
+          "line": "3443",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM1_SR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3443_1"
       }
@@ -35787,20 +35787,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_CCMR1_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM1_CCMR1_bit",
-        "location": {
-          "column": "1",
-          "line": "3485",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM1_CCMR1_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_3485_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_CCMR1",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -35811,6 +35797,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM1_CCMR1",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_3485_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM1_CCMR1_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM1_CCMR1_bit",
+        "location": {
+          "column": "1",
+          "line": "3485",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM1_CCMR1_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_3485_1"
       }
@@ -42615,20 +42615,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_IER_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM3_IER_bit",
-        "location": {
-          "column": "1",
-          "line": "4148",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM3_IER_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4148_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_IER",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -42639,6 +42625,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM3_IER",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4148_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_IER_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM3_IER_bit",
+        "location": {
+          "column": "1",
+          "line": "4148",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM3_IER_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4148_1"
       }
@@ -42759,20 +42759,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM3_SR1",
-        "location": {
-          "column": "1",
-          "line": "4162",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM3_SR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4162_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -42783,6 +42769,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM3_SR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4162_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM3_SR1",
+        "location": {
+          "column": "1",
+          "line": "4162",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM3_SR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4162_1"
       }
@@ -42875,20 +42875,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR2",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM3_SR2",
-        "location": {
-          "column": "1",
-          "line": "4174",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM3_SR2",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4174_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR2_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -42899,6 +42885,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM3_SR2_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4174_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_SR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM3_SR2",
+        "location": {
+          "column": "1",
+          "line": "4174",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM3_SR2",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4174_1"
       }
@@ -43251,20 +43251,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_CCMR2_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM3_CCMR2_bit",
-        "location": {
-          "column": "1",
-          "line": "4212",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM3_CCMR2_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4212_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_CCMR2",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -43275,6 +43261,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM3_CCMR2",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4212_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_CCMR2_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM3_CCMR2_bit",
+        "location": {
+          "column": "1",
+          "line": "4212",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM3_CCMR2_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4212_1"
       }
@@ -43497,20 +43497,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_PSCR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM3_PSCR_bit",
-        "location": {
-          "column": "1",
-          "line": "4238",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM3_PSCR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4238_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_PSCR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -43521,6 +43507,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM3_PSCR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4238_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM3_PSCR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM3_PSCR_bit",
+        "location": {
+          "column": "1",
+          "line": "4238",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM3_PSCR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4238_1"
       }
@@ -44677,20 +44677,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM4_CR1",
-        "location": {
-          "column": "1",
-          "line": "4365",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM4_CR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4365_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_CR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -44701,6 +44687,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM4_CR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4365_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM4_CR1",
+        "location": {
+          "column": "1",
+          "line": "4365",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM4_CR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4365_1"
       }
@@ -44779,20 +44779,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_IER_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM4_IER_bit",
-        "location": {
-          "column": "1",
-          "line": "4376",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM4_IER_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4376_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_IER",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -44803,6 +44789,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM4_IER",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4376_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_IER_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM4_IER_bit",
+        "location": {
+          "column": "1",
+          "line": "4376",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM4_IER_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4376_1"
       }
@@ -44881,20 +44881,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_SR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "TIM4_SR_bit",
-        "location": {
-          "column": "1",
-          "line": "4387",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "TIM4_SR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4387_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_SR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -44905,6 +44891,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "TIM4_SR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4387_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@TIM4_SR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "TIM4_SR_bit",
+        "location": {
+          "column": "1",
+          "line": "4387",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "TIM4_SR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4387_1"
       }
@@ -45579,20 +45579,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CSR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ADC_CSR",
-        "location": {
-          "column": "1",
-          "line": "4473",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "ADC_CSR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4473_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CSR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -45603,6 +45589,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "ADC_CSR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4473_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ADC_CSR",
+        "location": {
+          "column": "1",
+          "line": "4473",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "ADC_CSR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4473_1"
       }
@@ -45695,20 +45695,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR1",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ADC_CR1",
-        "location": {
-          "column": "1",
-          "line": "4485",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "ADC_CR1",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4485_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR1_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -45719,6 +45705,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "ADC_CR1_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4485_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ADC_CR1",
+        "location": {
+          "column": "1",
+          "line": "4485",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "ADC_CR1",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4485_1"
       }
@@ -45927,20 +45927,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR3",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "ADC_CR3",
-        "location": {
-          "column": "1",
-          "line": "4510",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "ADC_CR3",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4510_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR3_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -45951,6 +45937,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "ADC_CR3_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4510_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@ADC_CR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ADC_CR3",
+        "location": {
+          "column": "1",
+          "line": "4510",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "ADC_CR3",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4510_1"
       }
@@ -46561,20 +46561,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_MCR",
-        "location": {
-          "column": "1",
-          "line": "4585",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_MCR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4585_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MCR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -46585,6 +46571,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_MCR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4585_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_MCR",
+        "location": {
+          "column": "1",
+          "line": "4585",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_MCR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4585_1"
       }
@@ -46719,20 +46719,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MSR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_MSR_bit",
-        "location": {
-          "column": "1",
-          "line": "4599",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_MSR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4599_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MSR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -46743,6 +46729,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_MSR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4599_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_MSR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_MSR_bit",
+        "location": {
+          "column": "1",
+          "line": "4599",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_MSR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4599_1"
       }
@@ -46877,20 +46877,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_TSR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_TSR_bit",
-        "location": {
-          "column": "1",
-          "line": "4614",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_TSR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4614_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_TSR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -46901,6 +46887,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_TSR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4614_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_TSR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_TSR_bit",
+        "location": {
+          "column": "1",
+          "line": "4614",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_TSR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4614_1"
       }
@@ -47193,20 +47193,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_RFR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_RFR",
-        "location": {
-          "column": "1",
-          "line": "4643",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_RFR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4643_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_RFR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -47217,6 +47203,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_RFR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4643_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_RFR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_RFR",
+        "location": {
+          "column": "1",
+          "line": "4643",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_RFR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4643_1"
       }
@@ -47337,20 +47337,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_IER_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_IER_bit",
-        "location": {
-          "column": "1",
-          "line": "4658",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_IER_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4658_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_IER",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -47361,6 +47347,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_IER",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4658_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_IER_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_IER_bit",
+        "location": {
+          "column": "1",
+          "line": "4658",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_IER_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4658_1"
       }
@@ -47653,20 +47653,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_ESR_bit",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CAN_ESR_bit",
-        "location": {
-          "column": "1",
-          "line": "4688",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CAN_ESR_bit",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4688_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CAN_ESR",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -47677,6 +47663,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CAN_ESR",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4688_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CAN_ESR_bit",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CAN_ESR_bit",
+        "location": {
+          "column": "1",
+          "line": "4688",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CAN_ESR_bit",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4688_1"
       }
@@ -49919,20 +49919,6 @@
     },
     "members": [
       {
-        "ID": "c:iostm8s208rb.h@Ua@FI@CPU_CFG_GCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "CPU_CFG_GCR",
-        "location": {
-          "column": "1",
-          "line": "4920",
-          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
-        },
-        "name": "CPU_CFG_GCR",
-        "origin": "system_include",
-        "scope": "_anonymous_iostm8s208rb_h_4920_1"
-      },
-      {
         "ID": "c:iostm8s208rb.h@Ua@FI@CPU_CFG_GCR_bit",
         "What": "FieldDecl",
         "defdec": "Def",
@@ -49943,6 +49929,20 @@
           "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
         },
         "name": "CPU_CFG_GCR_bit",
+        "origin": "system_include",
+        "scope": "_anonymous_iostm8s208rb_h_4920_1"
+      },
+      {
+        "ID": "c:iostm8s208rb.h@Ua@FI@CPU_CFG_GCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CPU_CFG_GCR",
+        "location": {
+          "column": "1",
+          "line": "4920",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
+        },
+        "name": "CPU_CFG_GCR",
         "origin": "system_include",
         "scope": "_anonymous_iostm8s208rb_h_4920_1"
       }
@@ -51446,6 +51446,90 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\iostm8s208rb.h"
     },
     "name": "FLASH_WR_PG_DIS_vector",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@339@macro@__IO_MACROS_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IO_MACROS_H__",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__IO_MACROS_H__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@690@macro@__READ_WRITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__READ_WRITE",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__READ_WRITE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@784@macro@__READ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__READ",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__READ",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@823@macro@__WRITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WRITE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__WRITE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@1036@macro@__IO_REG8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IO_REG8",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__IO_REG8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:io_macros.h@1399@macro@__IO_REG8_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IO_REG8_BIT",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+    },
+    "name": "__IO_REG8_BIT",
     "origin": "system_include",
     "scope": null
   },
@@ -53206,87 +53290,465 @@
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@339@macro@__IO_MACROS_H__",
-    "What": "MacroDef",
+    "ID": "c:@count_pulse_s1",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "__IO_MACROS_H__",
+    "display": "count_pulse_s1",
     "location": {
-      "column": "9",
-      "line": "11",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "column": "10",
+      "line": "6",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__IO_MACROS_H__",
-    "origin": "system_include",
+    "name": "count_pulse_s1",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@690@macro@__READ_WRITE",
-    "What": "MacroDef",
+    "ID": "c:@count_pulse_s2",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "__READ_WRITE",
+    "display": "count_pulse_s2",
+    "location": {
+      "column": "10",
+      "line": "7",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "count_pulse_s2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@count_pulse_initial_s1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count_pulse_initial_s1",
+    "location": {
+      "column": "10",
+      "line": "8",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "count_pulse_initial_s1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@count_pulse_initial_s2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count_pulse_initial_s2",
+    "location": {
+      "column": "10",
+      "line": "9",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "count_pulse_initial_s2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@pulse_rate",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pulse_rate",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "pulse_rate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@pulse_rate_s1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pulse_rate_s1",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "pulse_rate_s1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@pulse_rate_s2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pulse_rate_s2",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "pulse_rate_s2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@spiCode",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "spiCode",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "spiCode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@stroke_lenght",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "stroke_lenght",
+    "location": {
+      "column": "10",
+      "line": "20",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "stroke_lenght",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@RESET_COUNT_PULSES",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "RESET_COUNT_PULSES",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "RESET_COUNT_PULSES",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@TX_PULSE_RATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TX_PULSE_RATE",
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__READ_WRITE",
-    "origin": "system_include",
+    "name": "TX_PULSE_RATE",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@784@macro@__READ",
-    "What": "MacroDef",
+    "ID": "c:@RX_STROKE_LENGHT",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "__READ",
+    "display": "RX_STROKE_LENGHT",
     "location": {
       "column": "9",
-      "line": "28",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "line": "25",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__READ",
-    "origin": "system_include",
+    "name": "RX_STROKE_LENGHT",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@823@macro@__WRITE",
-    "What": "MacroDef",
+    "ID": "c:@TX_POSITION",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "__WRITE",
+    "display": "TX_POSITION",
     "location": {
       "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "TX_POSITION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@INTERRUPTS_ENABLE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "INTERRUPTS_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "INTERRUPTS_ENABLE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@receiveStrokeLenght",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void receiveStrokeLenght(void)",
+    "location": {
+      "column": "6",
       "line": "30",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__WRITE",
-    "origin": "system_include",
+    "name": "receiveStrokeLenght",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@1036@macro@__IO_REG8",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IO_REG8",
+    "ID": "c:@F@sendPulseRate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void sendPulseRate(void)",
     "location": {
-      "column": "9",
+      "column": "6",
+      "line": "32",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "sendPulseRate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sendPosition",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void sendPosition(uint8_t)",
+    "location": {
+      "column": "6",
       "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__IO_REG8",
-    "origin": "system_include",
+    "name": "sendPosition",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:io_macros.h@1399@macro@__IO_REG8_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IO_REG8_BIT",
+    "ID": "c:@F@interruptsSensors",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void interruptsSensors(uint8_t)",
     "location": {
-      "column": "9",
-      "line": "44",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\io_macros.h"
+      "column": "6",
+      "line": "38",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
     },
-    "name": "__IO_REG8_BIT",
-    "origin": "system_include",
+    "name": "interruptsSensors",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@resetCountPulses",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void resetCountPulses(void)",
+    "location": {
+      "column": "6",
+      "line": "40",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "resetCountPulses",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_IRQHandler(void)",
+    "location": {
+      "column": "18",
+      "line": "45",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "SPI_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_PORTC_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_PORTC_IRQHandler(void)",
+    "location": {
+      "column": "18",
+      "line": "51",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "EXTI_PORTC_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_PORTE_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_PORTE_IRQHandler(void)",
+    "location": {
+      "column": "18",
+      "line": "61",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "EXTI_PORTE_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "82",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2636@F@main@current_state",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "current_state",
+    "location": {
+      "column": "14",
+      "line": "93",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "current_state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2678@F@main@next_state",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "next_state",
+    "location": {
+      "column": "14",
+      "line": "94",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "next_state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@3435@F@main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "10",
+      "line": "116",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@resetCountPulses",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void resetCountPulses(void)",
+    "location": {
+      "column": "6",
+      "line": "356",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "resetCountPulses",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@interruptsSensors",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void interruptsSensors(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "364",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "interruptsSensors",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sendPosition",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void sendPosition(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "376",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "sendPosition",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@11023@F@sendPosition@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "10",
+      "line": "378",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sendPulseRate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void sendPulseRate(void)",
+    "location": {
+      "column": "6",
+      "line": "385",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "sendPulseRate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@11874@F@sendPulseRate@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "10",
+      "line": "399",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@receiveStrokeLenght",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void receiveStrokeLenght(void)",
+    "location": {
+      "column": "6",
+      "line": "409",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+    },
+    "name": "receiveStrokeLenght",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -54542,563 +55004,535 @@
     "scope": null
   },
   {
-    "ID": "c:@count_pulse_s1",
-    "What": "Variable",
+    "ID": "c:Utils.h@27@macro@_UTILS_H_",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "count_pulse_s1",
-    "location": {
-      "column": "10",
-      "line": "6",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "count_pulse_s1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@count_pulse_s2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "count_pulse_s2",
-    "location": {
-      "column": "10",
-      "line": "7",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "count_pulse_s2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@count_pulse_initial_s1",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "count_pulse_initial_s1",
-    "location": {
-      "column": "10",
-      "line": "8",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "count_pulse_initial_s1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@count_pulse_initial_s2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "count_pulse_initial_s2",
-    "location": {
-      "column": "10",
-      "line": "9",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "count_pulse_initial_s2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@pulse_rate",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pulse_rate",
+    "display": "_UTILS_H_",
     "location": {
       "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "_UTILS_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_clock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_clock(void)",
+    "location": {
+      "column": "17",
+      "line": "11",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "init_clock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_clock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_clock(void)",
+    "location": {
+      "column": "17",
+      "line": "11",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "init_clock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@init_ports",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_ports(void)",
+    "location": {
+      "column": "17",
       "line": "12",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
     },
-    "name": "pulse_rate",
-    "origin": "project_file",
+    "name": "init_ports",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@pulse_rate_s1",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pulse_rate_s1",
+    "ID": "c:@F@init_ports",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void init_ports(void)",
     "location": {
-      "column": "9",
+      "column": "17",
+      "line": "12",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "init_ports",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_adc",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_adc(void)",
+    "location": {
+      "column": "17",
       "line": "13",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
     },
-    "name": "pulse_rate_s1",
-    "origin": "project_file",
+    "name": "setup_adc",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@pulse_rate_s2",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pulse_rate_s2",
+    "ID": "c:@F@setup_adc",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_adc(void)",
     "location": {
-      "column": "9",
+      "column": "17",
+      "line": "13",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_adc",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_spi",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_spi(void)",
+    "location": {
+      "column": "17",
       "line": "14",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
     },
-    "name": "pulse_rate_s2",
-    "origin": "project_file",
+    "name": "setup_spi",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@spiCode",
-    "What": "Variable",
+    "ID": "c:@F@setup_spi",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_spi(void)",
+    "location": {
+      "column": "17",
+      "line": "14",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_spi",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_pwm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_pwm(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "15",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_pwm",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_pwm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_pwm(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "15",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_pwm",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_interrupts_sensors",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_interrupts_sensors(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "16",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_interrupts_sensors",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@setup_interrupts_sensors",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void setup_interrupts_sensors(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "16",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "setup_interrupts_sensors",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@read_cs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t read_cs(void)",
+    "location": {
+      "column": "17",
+      "line": "17",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "read_cs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@read_cs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t read_cs(void)",
+    "location": {
+      "column": "17",
+      "line": "17",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "read_cs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@send_byte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void send_byte(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "18",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "send_byte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@send_byte",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void send_byte(uint8_t)",
+    "location": {
+      "column": "17",
+      "line": "18",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "send_byte",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UARTPrintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UARTPrintf(char *)",
+    "location": {
+      "column": "17",
+      "line": "19",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "UARTPrintf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UARTPrintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UARTPrintf(char *)",
+    "location": {
+      "column": "17",
+      "line": "19",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "UARTPrintf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@InitialiseUART",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void InitialiseUART(void)",
+    "location": {
+      "column": "17",
+      "line": "20",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "InitialiseUART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@InitialiseUART",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void InitialiseUART(void)",
+    "location": {
+      "column": "17",
+      "line": "20",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "InitialiseUART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@InitialiseUserButton",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void InitialiseUserButton(void)",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "InitialiseUserButton",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@InitialiseUserButton",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void InitialiseUserButton(void)",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "InitialiseUserButton",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@simulate_hall_sensor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void simulate_hall_sensor(void)",
+    "location": {
+      "column": "17",
+      "line": "22",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "simulate_hall_sensor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@simulate_hall_sensor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void simulate_hall_sensor(void)",
+    "location": {
+      "column": "17",
+      "line": "22",
+      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
+    },
+    "name": "simulate_hall_sensor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "spiCode",
+    "display": "_XENCODING_LIMITS_H",
     "location": {
       "column": "9",
-      "line": "17",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "spiCode",
-    "origin": "project_file",
+    "name": "_XENCODING_LIMITS_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@stroke_lenght",
-    "What": "Variable",
+    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "stroke_lenght",
+    "display": "_EncodingSb_LenMax",
     "location": {
-      "column": "10",
-      "line": "20",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
-    "name": "stroke_lenght",
-    "origin": "project_file",
+    "name": "_EncodingSb_LenMax",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@RESET_COUNT_PULSES",
-    "What": "Variable",
+    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "RESET_COUNT_PULSES",
+    "display": "_EncodingUtf8_LenMax",
+    "location": {
+      "column": "11",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_EncodingUtf8_LenMax",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_WITH_USED",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_WITH_USED",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_LEN_MAX",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_LEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_CUR_MAX",
+    "location": {
+      "column": "11",
+      "line": "52",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_CUR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@333@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@352@macro@_SIZET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZET",
+    "location": {
+      "column": "11",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "16",
+      "line": "20",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "RESET_COUNT_PULSES",
-    "origin": "project_file",
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@TX_PULSE_RATE",
-    "What": "Variable",
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "TX_PULSE_RATE",
+    "display": "unsigned int",
     "location": {
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "TX_PULSE_RATE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@RX_STROKE_LENGHT",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "RX_STROKE_LENGHT",
-    "location": {
-      "column": "9",
+      "column": "1",
       "line": "25",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
-    "name": "RX_STROKE_LENGHT",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@TX_POSITION",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "TX_POSITION",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "TX_POSITION",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@INTERRUPTS_ENABLE",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "INTERRUPTS_ENABLE",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "INTERRUPTS_ENABLE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@receiveStrokeLenght",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void receiveStrokeLenght(void)",
-    "location": {
-      "column": "6",
-      "line": "30",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "receiveStrokeLenght",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sendPulseRate",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void sendPulseRate(void)",
-    "location": {
-      "column": "6",
-      "line": "32",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "sendPulseRate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sendPosition",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void sendPosition(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "36",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "sendPosition",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@interruptsSensors",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void interruptsSensors(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "interruptsSensors",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@resetCountPulses",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void resetCountPulses(void)",
-    "location": {
-      "column": "6",
-      "line": "40",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "resetCountPulses",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SPI_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void SPI_IRQHandler(void)",
-    "location": {
-      "column": "18",
-      "line": "45",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "SPI_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_PORTC_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_PORTC_IRQHandler(void)",
-    "location": {
-      "column": "18",
-      "line": "51",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "EXTI_PORTC_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_PORTE_IRQHandler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_PORTE_IRQHandler(void)",
-    "location": {
-      "column": "18",
-      "line": "61",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "EXTI_PORTE_IRQHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@1933@F@EXTI_PORTE_IRQHandler@msg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "msg",
-    "location": {
-      "column": "12",
-      "line": "62",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "msg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "69",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2190@F@main@msg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "msg",
-    "location": {
-      "column": "15",
-      "line": "72",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "msg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2639@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "88",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2670@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "89",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2703@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "14",
-      "line": "90",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2734@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "91",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2767@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "14",
-      "line": "92",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2802@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "16",
-      "line": "93",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2833@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "94",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2864@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "95",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2895@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "12",
-      "line": "96",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2934@F@main@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "18",
-      "line": "98",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@resetCountPulses",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void resetCountPulses(void)",
-    "location": {
-      "column": "6",
-      "line": "369",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "resetCountPulses",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@interruptsSensors",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void interruptsSensors(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "377",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "interruptsSensors",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sendPosition",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void sendPosition(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "389",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "sendPosition",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@sendPulseRate",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void sendPulseRate(void)",
-    "location": {
-      "column": "6",
-      "line": "395",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "sendPulseRate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@receiveStrokeLenght",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void receiveStrokeLenght(void)",
-    "location": {
-      "column": "6",
-      "line": "415",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\main.c"
-    },
-    "name": "receiveStrokeLenght",
-    "origin": "project_file",
+    "name": "__data_size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -55644,538 +56078,6 @@
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\ControlUnit.h"
     },
     "name": "F_E_POSITION",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_XENCODING_LIMITS_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_XENCODING_LIMITS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingSb_LenMax",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingSb_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingUtf8_LenMax",
-    "location": {
-      "column": "11",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingUtf8_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_WITH_USED",
-    "location": {
-      "column": "13",
-      "line": "47",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_WITH_USED",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_LEN_MAX",
-    "location": {
-      "column": "11",
-      "line": "51",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_LEN_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_CUR_MAX",
-    "location": {
-      "column": "11",
-      "line": "52",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_CUR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@333@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@352@macro@_SIZET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZET",
-    "location": {
-      "column": "11",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZET",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@370@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "16",
-      "line": "20",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@475@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Utils.h@27@macro@_UTILS_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_UTILS_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "_UTILS_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_clock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_clock(void)",
-    "location": {
-      "column": "17",
-      "line": "11",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "init_clock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_clock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_clock(void)",
-    "location": {
-      "column": "17",
-      "line": "11",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "init_clock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_ports",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_ports(void)",
-    "location": {
-      "column": "17",
-      "line": "12",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "init_ports",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@init_ports",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void init_ports(void)",
-    "location": {
-      "column": "17",
-      "line": "12",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "init_ports",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_adc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_adc(void)",
-    "location": {
-      "column": "17",
-      "line": "13",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_adc",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_adc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_adc(void)",
-    "location": {
-      "column": "17",
-      "line": "13",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_adc",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_spi",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_spi(void)",
-    "location": {
-      "column": "17",
-      "line": "14",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_spi",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_spi",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_spi(void)",
-    "location": {
-      "column": "17",
-      "line": "14",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_spi",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_pwm",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_pwm(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "15",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_pwm",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_pwm",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_pwm(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "15",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_pwm",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_interrupts_sensors",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_interrupts_sensors(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "16",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_interrupts_sensors",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@setup_interrupts_sensors",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void setup_interrupts_sensors(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "16",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "setup_interrupts_sensors",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@read_cs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t read_cs(void)",
-    "location": {
-      "column": "17",
-      "line": "17",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "read_cs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@read_cs",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint16_t read_cs(void)",
-    "location": {
-      "column": "17",
-      "line": "17",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "read_cs",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@send_byte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void send_byte(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "18",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "send_byte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@send_byte",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void send_byte(uint8_t)",
-    "location": {
-      "column": "17",
-      "line": "18",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "send_byte",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UARTPrintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UARTPrintf(char *)",
-    "location": {
-      "column": "17",
-      "line": "19",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "UARTPrintf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@UARTPrintf",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void UARTPrintf(char *)",
-    "location": {
-      "column": "17",
-      "line": "19",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "UARTPrintf",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@InitialiseUART",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void InitialiseUART(void)",
-    "location": {
-      "column": "17",
-      "line": "20",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "InitialiseUART",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@InitialiseUART",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void InitialiseUART(void)",
-    "location": {
-      "column": "17",
-      "line": "20",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "InitialiseUART",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@InitialiseUserButton",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void InitialiseUserButton(void)",
-    "location": {
-      "column": "17",
-      "line": "21",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "InitialiseUserButton",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@InitialiseUserButton",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void InitialiseUserButton(void)",
-    "location": {
-      "column": "17",
-      "line": "21",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "InitialiseUserButton",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@simulate_hall_sensor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void simulate_hall_sensor(void)",
-    "location": {
-      "column": "17",
-      "line": "22",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "simulate_hall_sensor",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@simulate_hall_sensor",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void simulate_hall_sensor(void)",
-    "location": {
-      "column": "17",
-      "line": "22",
-      "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.h"
-    },
-    "name": "simulate_hall_sensor",
     "origin": "user_include",
     "scope": null
   },
@@ -59428,13 +59330,13 @@
     "scope": null
   },
   {
-    "ID": "c:Utils.c@3880@F@setup_pwm@timer2_arr",
+    "ID": "c:Utils.c@3871@F@setup_pwm@timer2_arr",
     "What": "Variable",
     "defdec": "Def",
     "display": "timer2_arr",
     "location": {
       "column": "9",
-      "line": "129",
+      "line": "128",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "timer2_arr",
@@ -59442,13 +59344,13 @@
     "scope": null
   },
   {
-    "ID": "c:Utils.c@3922@F@setup_pwm@timer2_ccr2",
+    "ID": "c:Utils.c@3913@F@setup_pwm@timer2_ccr2",
     "What": "Variable",
     "defdec": "Def",
     "display": "timer2_ccr2",
     "location": {
       "column": "9",
-      "line": "130",
+      "line": "129",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "timer2_ccr2",
@@ -59462,7 +59364,7 @@
     "display": "void setup_spi(void)",
     "location": {
       "column": "6",
-      "line": "182",
+      "line": "181",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "setup_spi",
@@ -59476,7 +59378,7 @@
     "display": "void setup_interrupts_sensors(uint8_t)",
     "location": {
       "column": "6",
-      "line": "216",
+      "line": "215",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "setup_interrupts_sensors",
@@ -59490,7 +59392,7 @@
     "display": "void send_byte(uint8_t)",
     "location": {
       "column": "6",
-      "line": "227",
+      "line": "226",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "send_byte",
@@ -59504,7 +59406,7 @@
     "display": "uint16_t read_cs(void)",
     "location": {
       "column": "10",
-      "line": "233",
+      "line": "232",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "read_cs",
@@ -59518,7 +59420,7 @@
     "display": "void InitialiseUART(void)",
     "location": {
       "column": "6",
-      "line": "245",
+      "line": "244",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "InitialiseUART",
@@ -59526,13 +59428,13 @@
     "scope": null
   },
   {
-    "ID": "c:Utils.c@7151@F@InitialiseUART@tmp",
+    "ID": "c:Utils.c@7142@F@InitialiseUART@tmp",
     "What": "Variable",
     "defdec": "Def",
     "display": "tmp",
     "location": {
       "column": "19",
-      "line": "251",
+      "line": "250",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "tmp",
@@ -59546,7 +59448,7 @@
     "display": "void UARTPrintf(char *)",
     "location": {
       "column": "6",
-      "line": "291",
+      "line": "290",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "UARTPrintf",
@@ -59554,13 +59456,13 @@
     "scope": null
   },
   {
-    "ID": "c:Utils.c@8327@F@UARTPrintf@ch",
+    "ID": "c:Utils.c@8318@F@UARTPrintf@ch",
     "What": "Variable",
     "defdec": "Def",
     "display": "ch",
     "location": {
       "column": "11",
-      "line": "293",
+      "line": "292",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "ch",
@@ -59574,7 +59476,7 @@
     "display": "void InitialiseUserButton(void)",
     "location": {
       "column": "6",
-      "line": "302",
+      "line": "301",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "InitialiseUserButton",
@@ -59588,7 +59490,7 @@
     "display": "void simulate_hall_sensor(void)",
     "location": {
       "column": "6",
-      "line": "313",
+      "line": "312",
       "path": "C:\\Users\\riban\\OneDrive\\Ambiente de Trabalho\\IAR\\lib\\Utils.c"
     },
     "name": "simulate_hall_sensor",

@@ -125,7 +125,6 @@ void setup_adc (void) {
 }
 
 void setup_pwm(uint8_t duty_cycle) {
-ADC_CR3
     int timer2_arr = TIM2_ARR_10KHz - 1;
     int timer2_ccr2 = TIM2_ARR_10KHz/100*duty_cycle-1;
     

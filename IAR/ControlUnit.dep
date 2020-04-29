@@ -5,67 +5,58 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\lib\Utils.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8s208rb.icf</file>
             <file>$PROJ_DIR$\lib\ControlUnit.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\iostm8s208rb.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\lib\Utils.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Utils.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Utils.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Exe\ControlUnit.out</file>
-            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
             <file>$PROJ_DIR$\Debug\Obj\Utils.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Utils.xcl</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$PROJ_DIR$\Debug\List\ControlUnit.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$PROJ_DIR$\Debug\Obj\ControlUnit.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\iostm8s208rb.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\ControlUnit.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\Utils.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\List\ControlUnit.map</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8s208rb.icf</file>
+            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 17 28</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 25</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 6</file>
+                    <file> 23</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 8</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 2 8 18 29 12 23 7 24 1 3 11 21 22 20 27 26 5</file>
+                    <file> 0 19 27 22 9 16 5 25 4 6 29 13 11 17 15 28 1</file>
                 </tool>
             </inputs>
         </file>
@@ -74,36 +65,45 @@
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 16</file>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15</file>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 2 8 18 29 12 23 7 24 1 3 11 21 22 20 27 26 5</file>
+                    <file> 0 19 27 22 9 16 5 25 4 6 29 13 11 17 15 28 1</file>
                 </tool>
             </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 20 24</file>
+                </tool>
+            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\ControlUnit.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 28</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 4 25 19 9 13</file>
+                    <file> 26 23 7 14 30</file>
                 </tool>
             </inputs>
         </file>
@@ -113,31 +113,22 @@
         <outputs>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\lib\Utils.c</file>
-            <file>$PROJ_DIR$\Release\Obj\main.o</file>
-            <file>$PROJ_DIR$\Release\Obj\Utils.o</file>
-            <file>$PROJ_DIR$\Release\Obj\Utils.xcl</file>
             <file>$PROJ_DIR$\Release\Exe\ControlUnit.out</file>
+            <file>$PROJ_DIR$\Release\Obj\Utils.o</file>
             <file>$PROJ_DIR$\Release\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\Utils.xcl</file>
+            <file>$PROJ_DIR$\Release\Obj\main.o</file>
         </outputs>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 5</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 2</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
         </file>
@@ -150,7 +141,16 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4</file>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 2</file>
                 </tool>
             </outputs>
         </file>

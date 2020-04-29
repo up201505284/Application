@@ -93,7 +93,7 @@
         <Sort>4 0</Sort>
     </SfrWindow>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\Utils.c}.128.1" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\lib\Utils.c}.217.5" 1 0 0 0 "" 0 ""</Bp0>
         <Count>1</Count>
     </Breakpoints>
     <Aliases>
@@ -102,6 +102,6 @@
     </Aliases>
     <DebuggerSettings>
         <DisableInterruptsWhenStepping>0</DisableInterruptsWhenStepping>
-        <LeaveTargetRunning>0</LeaveTargetRunning>
+        <LeaveTargetRunning>1</LeaveTargetRunning>
     </DebuggerSettings>
 </settings>

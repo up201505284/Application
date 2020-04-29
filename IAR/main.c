@@ -51,7 +51,7 @@ __interrupt void SPI_IRQHandler(void){
 __interrupt void EXTI_PORTC_IRQHandler(void){
     if (HALL_S1 == 0)        //  Falling edge of hall sensor 1.  
       count_pulse_s1++;
-    else if (HALL_S2 == 0)
+    else if (HALL_S2 == 0)   //  Falling edge of hall sensor 2.  
       count_pulse_s2++;
 }
 
@@ -59,180 +59,161 @@ __interrupt void EXTI_PORTC_IRQHandler(void){
 
 #pragma vector = EXTI4_vector                    
 __interrupt void EXTI_PORTE_IRQHandler(void){
-      char msg[10];
+    if (TIM3_CR1_CEN == 1) {
+        __disable_interrupt();
+        TIM3_CR1_CEN = 0; // Disable simulation of hall sensosrs.
+        PA_ODR_ODR3 = 0;
+        PD_ODR_ODR0 = 0;
+        __enable_interrupt();
+         UARTPrintf("Button USER pressed: Disable\n");
+
+    }
+    else {
+        __disable_interrupt();
+        simulate_hall_sensor();
+        __enable_interrupt();
       //  Falling edge of USESR button  
-      UARTPrintf("Button USER pressed\n");
-      sprintf(msg,"%x\n", read_cs());   // here 16 means Hexadecimal
-      UARTPrintf(msg);
+        UARTPrintf("Button USER pressed: Enable\n");
+    }
+
+
 }
 
 int main( void ){ 
 
-  __disable_interrupt();
-         char msg[10];
+    __disable_interrupt();
 
-  init_clock();
-  init_ports();
-  InitialiseUART();  
-  InitialiseUserButton();
-  simulate_hall_sensor();
-  setup_interrupts_sensors(ENABLE);
-  //setup_pwm(90);
-  //setup_adc();
-          sprintf(msg,"%x\n",count_pulse_s1 );   // here 16 means Hexadecimal
-      UARTPrintf(msg);
-              sprintf(msg,"%x\n",count_pulse_s2 );   // here 16 means Hexadecimal
-      UARTPrintf(msg);
-  __enable_interrupt();
+    init_clock();
+    init_ports();
   
-  for (int i=0; i<32000;i++);
-  for (int i=0; i<32000;i++);
-    for (int i=0; i<32000;i++);
-  for (int i=0; i<32000;i++);
-    for (int i=0; i<32000;i++);
-      for (int i=0; i<32000;i++);
-  for (int i=0; i<32000;i++);
-  for (int i=0; i<32000;i++);
-  for (int i=0; i<32000;i++);
-
-        for (int i=0; i<32000;i++);
-
-
-
-    setup_interrupts_sensors(DISABLE);
-        sprintf(msg,"%x\n",count_pulse_s1 );   // here 16 means Hexadecimal
-      UARTPrintf(msg);
-              sprintf(msg,"%x\n",count_pulse_s2 );   // here 16 means Hexadecimal
-      UARTPrintf(msg);
-  while(1){
-    __wait_for_interrupt();
-  }
-
+    InitialiseUART();  
+    InitialiseUserButton();
+    setup_adc();
  
-//    uint8_t  current_state       = 0x00;
-//    uint8_t  next_state          = 0x00;
-//
-//
-//    Disable interrupts
-//    __disable_interrupt();
-//
-//    init_clock();
-//    init_ports();
-//    setup_spi();
-//    setup_adc();
-//    setup_interrupts_sensors(DISABLE);
-//    
-//    //  Turn-off all outputs
-//    INA                         = 0;
-//    INB                         = 0;
-//    SEL0                        = 0;
-//    PWM                         = 0;
-//    
-//    //  Initialize pulse_rate
-//    pulse_rate                  = 0x00;
-//    pulse_rate_s1               = 0x00;
-//    pulse_rate_s2               = 0x00;
-//
-//    //  Initialize stroke lenght
-//    stroke_lenght               = 0x00;
-//
-//
-//    RESET_COUNT_PULSES          = 0; //  Clear flag RESET_COUNT_PULSES
-//    INTERRUPTS_ENABLE           = 0; //  Clear flag INTERRUPTS_ENABLE
-//    TX_PULSE_RATE               = 0; //  Clear flag TX_PULSE_RATE
-//    RX_STROKE_LENGHT            = 0; //  Clear flag RX_STROKE_LENGHT
-//    
-//    //  Enable interrupts
-//    __enable_interrupt();
-//
-//    while (1) {
-//        
-//        current_state = next_state;
-//        
-//        switch (current_state) {    
-//            case WAIT:
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//                
-//                if (!stroke_lenght) //  Not yet received stroke lenght
-//                    RX_STROKE_LENGHT    = 0; //  Clear flag RX_STROKE_LENGHT
-//                
-//                if (!pulse_rate){  //  Not yet calculate pulse rate
-//                    RESET_COUNT_PULSES  = 0; //  Clear flag RESET_COUNT_PULSES
-//                    TX_PULSE_RATE       = 0; //  Clear flag TX_PULSE_RATE
-//                }
-//
-//                TX_POSITION = 0; // Clear flag TX_POSITION
-//            break;
-//
-//            case IS_STOP:
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//
-//                if (!RX_STROKE_LENGHT)
-//                    receiveStrokeLenght();
-//            break;
-//
-//            case IS_EXTENDED:
-//                INB  = 0;
-//                INA  = 1;
-//                SEL0 = 1;
-//                PWM  = 1;
-//            break;
-//
-//            case IS_REFRACTED:
-//                if(!RESET_COUNT_PULSES)
-//                    resetCountPulses();
-//                
-//                if(!INTERRUPTS_ENABLE)
-//                    interruptsSensors(ENABLE);
-//                
-//                INA  = 0;
-//                SEL0 = 0;
-//                INB  = 1;
-//                PWM  = 1;
-//            break;
-//
-//            case IS_SEND:
-//                if(INTERRUPTS_ENABLE)
-//                    interruptsSensors(DISABLE);
-//                
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//
-//                if(!TX_PULSE_RATE)
-//                    sendPulseRate();    
-//            break;
-//
-//            case SR_STOP:
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//            break;
-//
-//            case SR_REFRACTED:
-//                INA  = 0;
-//                SEL0 = 0;
-//                INB  = 1;
-//                PWM  = 1;
-//            break;
-//
-//            case SR_SEND:
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//
-//                if (!TX_POSITION)
-//                    sendPosition(F_R_POSITION);
-//            break;
+    uint8_t  current_state       = 0x00;
+    uint8_t  next_state          = 0x00;
+    
+    //  Turn-off all outputs
+    INA                         = 0;
+    INB                         = 0;
+    SEL0                        = 0;
+    PWM                         = 0;
+    
+    //  Initialize pulse_rate
+    pulse_rate                  = 0x00;
+    pulse_rate_s1               = 0x00;
+    pulse_rate_s2               = 0x00;
+
+    //  Initialize stroke lenght
+    stroke_lenght               = 0x00;
+
+
+    RESET_COUNT_PULSES          = 0; //  Clear flag RESET_COUNT_PULSES
+    INTERRUPTS_ENABLE           = 0; //  Clear flag INTERRUPTS_ENABLE
+    TX_PULSE_RATE               = 0; //  Clear flag TX_PULSE_RATE
+    RX_STROKE_LENGHT            = 0; //  Clear flag RX_STROKE_LENGHT
+    
+    char msg[10];
+            PA_ODR_ODR3 = 0;
+        PD_ODR_ODR0 = 0;       
+    current_state = WAIT;
+    spiCode = INITIALSETUP();
+    sprintf(msg, "%x, %x\n", spiCode, current_state);
+    UARTPrintf(msg);
+    //  Enable interrupts
+    __enable_interrupt();
+    
+    while (1) {
+        if (current_state != next_state) {
+          current_state = next_state;
+          sprintf(msg, "%x\n", current_state);
+          UARTPrintf(msg);
+        }
+        
+        switch (current_state) {    
+            case WAIT:
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+                
+                if (stroke_lenght == 0x00) //  Not yet received stroke lenght
+                    RX_STROKE_LENGHT    = 0; //  Clear flag RX_STROKE_LENGHT
+                
+                if (pulse_rate == 0x00){  //  Not yet calculate pulse rate
+                    RESET_COUNT_PULSES  = 0; //  Clear flag RESET_COUNT_PULSES
+                    TX_PULSE_RATE       = 0; //  Clear flag TX_PULSE_RATE
+                }
+
+                TX_POSITION = 0; // Clear flag TX_POSITION
+            break;
+
+            case IS_STOP:
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+
+                if (!RX_STROKE_LENGHT)
+                    receiveStrokeLenght();
+            break;
+
+            case IS_EXTENDED:
+                INB  = 0;
+                INA  = 1;
+                SEL0 = 1;
+                PWM  = 1;
+            break;
+
+            case IS_REFRACTED:
+                if(!RESET_COUNT_PULSES)
+                    resetCountPulses();
+                
+                if(!INTERRUPTS_ENABLE)
+                    interruptsSensors(ENABLE);
+                
+                INA  = 0;
+                SEL0 = 0;
+                INB  = 1;
+                PWM  = 1;
+            break;
+
+            case IS_SEND:
+                if(INTERRUPTS_ENABLE)
+                    interruptsSensors(DISABLE);
+                
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+
+                if(!TX_PULSE_RATE)
+                    sendPulseRate();    
+            break;
+
+            case SR_STOP:
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+            break;
+
+            case SR_REFRACTED:
+                INA  = 0;
+                SEL0 = 0;
+                INB  = 1;
+                PWM  = 1;
+            break;
+
+            case SR_SEND:
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+
+                if (!TX_POSITION)
+                    sendPosition(F_R_POSITION);
+            break;
 //
 //            case B_STOP:
 //                INA  = 0;
@@ -255,65 +236,71 @@ int main( void ){
 //                PWM  = 1;
 //            break;
 //
-//            default:
-//                INA  = 0;
-//                INB  = 0;
-//                SEL0 = 0;
-//                PWM  = 0;
-//            break;
-//        }
+            default:
+                INA  = 0;
+                INB  = 0;
+                SEL0 = 0;
+                PWM  = 0;
+            break;
+        }
 //        
 //
-//        switch (current_state) {
-//            case WAIT:
-//                if (spiCode == INITIALSETUP())
-//                    next_state = IS_EXTENDED;
-//                else if (spiCode == SAFERESET())
-//                    next_state = SR_REFRACTED;
-//                else if (spiCode == BASIC())
-//                    next_state = B_STOP;
-//                /*
-//                else if (spiCode == ADVANCED())
-//                    next_state = A_STOP;
-//                */
-//            break;
-//            
-//            case IS_STOP:
-//                if (spiCode == DISCONNECTED()) 
-//                    next_state = WAIT;    
-//                else if (RX_STROKE_LENGHT)
-//                    next_state = IS_EXTENDED;
-//            break;
-//            
-//            case IS_EXTENDED:
-//                if (read_cs() == 0x0000) //  Output current is null because the limit switches cause an open load.
-//                    next_state = IS_REFRACTED;
-//            break;
-//            
-//            case IS_REFRACTED:
-//                if (read_cs() == 0x0000) //  Output current is null because the limit switches cause an open load.
-//                    next_state = IS_SEND;
-//            break;
-//            
-//            case IS_SEND:
-//                if (TX_PULSE_RATE) //  Transmitter pulse rate finished
-//                    next_state = IS_STOP;
-//            break;
-//
-//            case SR_REFRACTED:
-//                if (read_cs() == 0x0000)
-//                    next_state = SR_SEND;
-//            break;
-//
-//            case SR_SEND:
-//                if (SPI_SR_TXE) //  Transmitter position finished
-//                    next_state = SR_STOP;
-//            break;
-//
-//            case SR_STOP:
-//                if (spiCode == DISCONNECTED())
-//                    next_state = WAIT;
-//            break;
+        switch (current_state) {
+            case WAIT:
+                if (spiCode == INITIALSETUP())
+                    next_state = IS_EXTENDED;
+                else if (spiCode == SAFERESET())
+                    next_state = SR_REFRACTED;
+                //else if (spiCode == BASIC())
+                //    next_state = B_STOP;
+                //
+                //else if (spiCode == ADVANCED())
+                //    next_state = A_STOP;
+            break;
+            
+            case IS_STOP:
+                if (spiCode == DISCONNECTED()) 
+                    next_state = WAIT;    
+                else if (RX_STROKE_LENGHT)
+                    next_state = IS_EXTENDED;
+            break;
+            
+            case IS_EXTENDED:
+                if (/*HALL_S1 == 0 &&*/ HALL_S2 == 0) 
+                    next_state = IS_REFRACTED;
+            sprintf(msg, "%x\n", HALL_S2);
+            break;
+            
+            case IS_REFRACTED:
+                if (/*HALL_S1== 0 &&*/ HALL_S2 == 0) //  Output current is null because the limit switches cause an open load.
+                    next_state = IS_SEND;
+            break;
+            
+            case IS_SEND:
+                if (TX_PULSE_RATE) //  Transmitter pulse rate finished
+                    next_state = IS_STOP;
+            break;
+
+            case SR_REFRACTED:
+                if (HALL_S1 == 0 && HALL_S2 == 0)
+                    next_state = SR_SEND;
+            break;
+
+            case SR_SEND:
+                if (SPI_SR_TXE) //  Transmitter position finished
+                    next_state = SR_STOP;
+            break;
+
+            case SR_STOP:
+                if (spiCode == DISCONNECTED())
+                    next_state = WAIT;
+            break;
+
+         //   if (next_state != current_state) {
+
+          //  }
+
+            current_state = next_state;
 //            
 //            case B_STOP:
 //                if (spiCode == EXTENDED())
@@ -356,12 +343,12 @@ int main( void ){
 //                    next_state = A_SENDFULLYREFRACTED;
 //            break;
 //            */
-//            default:
-//                next_state = WAIT;
-//            break;
-//        }
-//        
-//    }
+            default:
+                next_state = WAIT;
+            break;
+        }
+        
+    }
         
     return 0;
 }
@@ -387,7 +374,10 @@ void interruptsSensors (uint8_t state) {
 }
 
 void sendPosition(uint8_t position){
-    send_byte(position);
+    // send_byte(position);
+    char msg[10];
+    sprintf(msg, "%x\n", position);
+    UARTPrintf(msg);
     TX_POSITION           = 0x01; //  Set flag TX_POSITION
     return;
 }
@@ -406,15 +396,20 @@ void sendPulseRate (void){
     //  Pulse avarage of two hall sensors.
     pulse_rate = (pulse_rate_s1 + pulse_rate_s2) / 2;
 
-    send_byte(pulse_rate);
+    char msg[10];
+    sprintf(msg, "%x\n", pulse_rate_s2);
+    UARTPrintf(msg);
+    send_byte(pulse_rate_s2);
+    
     TX_PULSE_RATE = 0x01;   //  Set flag TX_PULSE_RATE
 
     return;
 }
 
 void receiveStrokeLenght (void){
-    while (spiCode == DISCONNECTED() || spiCode == INITIALSETUP());
-    stroke_lenght = spiCode;
+    // while (spiCode == DISCONNECTED() || spiCode == INITIALSETUP());
+    // stroke_lenght = spiCode;
+    stroke_lenght = 0x50;
     RX_STROKE_LENGHT = 0x01; //  Set flag RX_STROKE_LENGHT
 
     return;
