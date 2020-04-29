@@ -1,15 +1,14 @@
 
 #define TIM2_ARR_10KHz          1600
-#define TIM2_ARR_20KHz          800
-
+#define TIM2_ARR_20KHz          0x0320
 // Outputs
     //  INA     -> PD5
     //  INB     -> PD6
     //  SEL0    -> PE0     
     //  PWM     -> PD3    
 #define PWM                     PD_ODR_ODR3    
-#define INA                     PD_ODR_ODR5  
-#define INB                     PD_ODR_ODR6  
+#define INA                     PC_ODR_ODR3  
+#define INB                     PC_ODR_ODR4  
 #define SEL0                    PE_ODR_ODR0  
 
 //  Inputs

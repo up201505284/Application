@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\ControlUnit.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\Test\HelloWorld.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

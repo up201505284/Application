@@ -14,5 +14,5 @@ main.pbi: C:\Users\riban\OneDrive\Ambiente\ de\ Trabalho\IAR\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\Users\riban\OneDrive\Ambiente\ de\ Trabalho\IAR\lib\ControlUnit.h
+  C:\Users\riban\OneDrive\Ambiente\ de\ Trabalho\IAR\lib\ControlUnit.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h
